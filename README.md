@@ -17,3 +17,10 @@ ocaml-**name** where name is official cordova plugin name.
 For example, the binding to cordova-plugin-camera is in the ocaml-cordova-plugin-camera repository.
 
 ## Bindings list
+
+* Binding to cordova object:
+	* Source files: https://github.com/dannywillems/ocaml-cordova
+	* Example: https://github.com/dannywillems/ocaml-cordova-example
+* Vibration:
+	* https://github.com/dannywillems/ocaml-cordova-plugin-vibration
+	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-vibration-example
