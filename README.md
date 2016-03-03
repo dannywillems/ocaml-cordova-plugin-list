@@ -8,7 +8,7 @@ Cordova allows you to develop hybrid mobile application using web technologies s
 Through cordova plugins, you can access to the native components. To learn how to make cordova plugins, see [the official tutorial](https://cordova.apache.org/docs/en/latest/guide/hybrid/plugins/index.html).
 You can find the official cordova plugin list [here](https://cordova.apache.org/plugins/).
 
-Js\_of\_ocaml provides a compilator from ocaml to javascript. It's a way to develop Cordova application using ocaml. For more info, see [the ocsigen project](http://ocsigen.org/) which contains js\_of\_ocaml.
+Js\_of\_ocaml provides a compiler from ocaml to javascript. It's a way to develop Cordova application using ocaml. For more info, see [the ocsigen project](http://ocsigen.org/) which contains js\_of\_ocaml.
 
 ## How to contribute.
 
