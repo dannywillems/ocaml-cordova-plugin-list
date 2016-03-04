@@ -21,10 +21,10 @@ For example, the binding to cordova-plugin-camera is in the ocaml-cordova-plugin
 * Binding to cordova object:
 	* Source files: https://github.com/dannywillems/ocaml-cordova
 	* Example: https://github.com/dannywillems/ocaml-cordova-example
-* [StatusBar](https://github.com/cordova-plugin-statusBar):
+* [StatusBar](https://github.com/apache/cordova-plugin-statusBar):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-statusbar
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-statusbar-example
-* [Vibration](https://github.com/cordova-plugin-vibration):
+* [Vibration](https://github.com/apache/cordova-plugin-vibration):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-vibration
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-vibration-example
 
@@ -48,34 +48,34 @@ For example, the binding to cordova-plugin-camera is in the ocaml-cordova-plugin
 * [Device-orientation](https://github.com/apache/cordova-plugin-device-orientation):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-device-orientation
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-device-orientation-example
-* [Dialogs](https://github.com/cordova-plugin-dialogs):
+* [Dialogs](https://github.com/apache/cordova-plugin-dialogs):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-dialogs
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-dialogs-example
-* [File](https://github.com/cordova-plugin-file):
+* [File](https://github.com/apache/cordova-plugin-file):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-file
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-file-example
-* [File-transfer](https://github.com/cordova-plugin-file-transfer):
+* [File-transfer](https://github.com/apache/cordova-plugin-file-transfer):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-file-transfer
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-file-transfer-example
-* [Geolocation](https://github.com/cordova-plugin-geolocation):
+* [Geolocation](https://github.com/apache/cordova-plugin-geolocation):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-geolocation
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-geolocation-example
-* [Globalization](https://github.com/cordova-plugin-globalization):
+* [Globalization](https://github.com/apache/cordova-plugin-globalization):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-globalization
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-globalization-example
-* [Inappbrowser](https://github.com/cordova-plugin-inappbrowser):
+* [Inappbrowser](https://github.com/apache/cordova-plugin-inappbrowser):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-inappbrowser
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-inappbrowser-example
-* [Media](https://github.com/cordova-plugin-media):
+* [Media](https://github.com/apache/cordova-plugin-media):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-media
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-media-example
-* [Media-captur](https://github.com/cordova-plugin-media-captur):
+* [Media-captur](https://github.com/apache/cordova-plugin-media-captur):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-media-capture
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-media-capture-example
-* [Network-information](https://github.com/cordova-plugin-network-information):
+* [Network-information](https://github.com/apache/cordova-plugin-network-information):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-network-information
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-media-network-information-example
-* [qrscanner](https://github.com/cordova-plugin-qrscanner):
+* [qrscanner](https://github.com/apache/cordova-plugin-qrscanner):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-qrscanner
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-qrscanner-example
 * [Toast](https://github.com/EddyVerbruggen/Toast-PhoneGap-Plugin):
