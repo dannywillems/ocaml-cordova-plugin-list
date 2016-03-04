@@ -69,7 +69,7 @@ For example, the binding to cordova-plugin-camera is in the ocaml-cordova-plugin
 * [Media](https://github.com/apache/cordova-plugin-media):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-media
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-media-example
-* [Media-captur](https://github.com/apache/cordova-plugin-media-captur):
+* [Media-capture](https://github.com/apache/cordova-plugin-media-capture):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-media-capture
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-media-capture-example
 * [Network-information](https://github.com/apache/cordova-plugin-network-information):
