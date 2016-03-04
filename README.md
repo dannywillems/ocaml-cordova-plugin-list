@@ -75,7 +75,7 @@ For example, the binding to cordova-plugin-camera is in the ocaml-cordova-plugin
 * [Network-information](https://github.com/apache/cordova-plugin-network-information):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-network-information
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-media-network-information-example
-* [qrscanner](https://github.com/apache/cordova-plugin-qrscanner):
+* [qrscanner](https://github.com/bitpay/cordova-plugin-qrscanner):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-qrscanner
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-qrscanner-example
 * [Toast](https://github.com/EddyVerbruggen/Toast-PhoneGap-Plugin):
