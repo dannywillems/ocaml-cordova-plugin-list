@@ -21,6 +21,12 @@ For example, the binding to cordova-plugin-camera is in the ocaml-cordova-plugin
 * Binding to cordova object:
 	* Source files: https://github.com/dannywillems/ocaml-cordova
 	* Example: https://github.com/dannywillems/ocaml-cordova-example
+* [Device](https://github.com/apache/cordova-plugin-device):
+	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-device
+	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-device-example
+* [Device-motion](https://github.com/apache/cordova-plugin-device-motion):
+	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-device-motion
+	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-device-motion-example
 * [StatusBar](https://github.com/apache/cordova-plugin-statusBar):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-statusbar
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-statusbar-example
@@ -39,12 +45,6 @@ For example, the binding to cordova-plugin-camera is in the ocaml-cordova-plugin
 * [Console](https://github.com/apache/cordova-plugin-console):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-console
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-console-example
-* [Device](https://github.com/apache/cordova-plugin-device):
-	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-device
-	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-device-example
-* [Device-motion](https://github.com/apache/cordova-plugin-device-motion):
-	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-device-motion
-	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-device-motion-example
 * [Device-orientation](https://github.com/apache/cordova-plugin-device-orientation):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-device-orientation
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-device-orientation-example
