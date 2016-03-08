@@ -53,6 +53,9 @@ If you have any idea, please contact me.
 * [StatusBar](https://github.com/apache/cordova-plugin-statusBar):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-statusbar
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-statusbar-example
+* [Toast](https://github.com/EddyVerbruggen/Toast-PhoneGap-Plugin):
+	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-toast
+	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-toast-example
 * [Vibration](https://github.com/apache/cordova-plugin-vibration):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-vibration
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-vibration-example
@@ -101,6 +104,3 @@ If you have any idea, please contact me.
 * [qrscanner](https://github.com/bitpay/cordova-plugin-qrscanner):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-qrscanner
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-qrscanner-example
-* [Toast](https://github.com/EddyVerbruggen/Toast-PhoneGap-Plugin):
-	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-toast
-	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-toast-example
