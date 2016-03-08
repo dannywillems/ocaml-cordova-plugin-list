@@ -50,6 +50,9 @@ If you have any idea, please contact me.
 * [Device-motion](https://github.com/apache/cordova-plugin-device-motion):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-device-motion
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-device-motion-example
+* [Insomnia](https://github.com/EddyVerbruggen/Insomnia-PhoneGap-Plugin):
+	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-insomnia
+	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-insomnia-example
 * [StatusBar](https://github.com/apache/cordova-plugin-statusBar):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-statusbar
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-statusbar-example
