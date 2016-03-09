@@ -44,6 +44,9 @@ If you have any idea, please contact me.
 * Binding to cordova object:
 	* Source files: https://github.com/dannywillems/ocaml-cordova
 	* Example: https://github.com/dannywillems/ocaml-cordova-example
+* [Camera](https://github.com/apache/cordova-plugin-camera):
+	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-camera
+	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-camera-example
 * [Device](https://github.com/apache/cordova-plugin-device):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-device
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-device-example
@@ -68,9 +71,6 @@ If you have any idea, please contact me.
 * [Calendar](https://github.com/EddyVerbruggen/Calendar-PhoneGap-Plugin)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-calendar
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-calendar-example
-* [Camera](https://github.com/apache/cordova-plugin-camera):
-	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-camera
-	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-camera-example
 * [Console](https://github.com/apache/cordova-plugin-console):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-console
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-console-example
