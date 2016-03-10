@@ -74,6 +74,9 @@ If you have any idea, please contact me.
 * [Console](https://github.com/apache/cordova-plugin-console):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-console
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-console-example
+* [Contacts](https://github.com/apache/cordova-plugin-contacts)
+	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-contacts
+	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-contacts-example
 * [Device-orientation](https://github.com/apache/cordova-plugin-device-orientation):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-device-orientation
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-device-orientation-example
@@ -104,6 +107,12 @@ If you have any idea, please contact me.
 * [Network-information](https://github.com/apache/cordova-plugin-network-information):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-network-information
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-media-network-information-example
-* [qrscanner](https://github.com/bitpay/cordova-plugin-qrscanner):
+* [Push notifications](https://github.com/phonegap/phonegap-plugin-push)
+	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-push-notifications
+	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-push-notifications-example
+* [QRScanner](https://github.com/bitpay/cordova-plugin-qrscanner):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-qrscanner
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-qrscanner-example
+* [SMS](https://github.com/cordova-sms/cordova-sms-plugin)
+	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-sms
+	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-sms-example
