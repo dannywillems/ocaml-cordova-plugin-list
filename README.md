@@ -53,6 +53,12 @@ If you have any idea, please contact me.
 * [Device-motion](https://github.com/apache/cordova-plugin-device-motion):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-device-motion
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-device-motion-example
+* [Geolocation](https://github.com/apache/cordova-plugin-geolocation):
+	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-geolocation
+	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-geolocation-example
+* [Inappbrowser](https://github.com/apache/cordova-plugin-inappbrowser):
+	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-inappbrowser
+	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-inappbrowser-example
 * [Insomnia](https://github.com/EddyVerbruggen/Insomnia-PhoneGap-Plugin):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-insomnia
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-insomnia-example
@@ -71,9 +77,6 @@ If you have any idea, please contact me.
 * [Calendar](https://github.com/EddyVerbruggen/Calendar-PhoneGap-Plugin)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-calendar
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-calendar-example
-* [Console](https://github.com/apache/cordova-plugin-console):
-	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-console
-	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-console-example
 * [Contacts](https://github.com/apache/cordova-plugin-contacts)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-contacts
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-contacts-example
@@ -89,15 +92,9 @@ If you have any idea, please contact me.
 * [File-transfer](https://github.com/apache/cordova-plugin-file-transfer):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-file-transfer
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-file-transfer-example
-* [Geolocation](https://github.com/apache/cordova-plugin-geolocation):
-	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-geolocation
-	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-geolocation-example
 * [Globalization](https://github.com/apache/cordova-plugin-globalization):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-globalization
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-globalization-example
-* [Inappbrowser](https://github.com/apache/cordova-plugin-inappbrowser):
-	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-inappbrowser
-	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-inappbrowser-example
 * [Media](https://github.com/apache/cordova-plugin-media):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-media
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-media-example
@@ -116,3 +113,9 @@ If you have any idea, please contact me.
 * [SMS](https://github.com/cordova-sms/cordova-sms-plugin)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-sms
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-sms-example
+
+### Not planned
+
+* [Console](https://github.com/apache/cordova-plugin-console):
+	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-console
+	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-console-example
