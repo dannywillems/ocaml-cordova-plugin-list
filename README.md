@@ -56,6 +56,9 @@ If you have any idea, please contact me.
 * [Device-orientation](https://github.com/apache/cordova-plugin-device-orientation):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-device-orientation
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-device-orientation-example
+* [File](https://github.com/apache/cordova-plugin-file):
+	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-file
+	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-file-example
 * [Geolocation](https://github.com/apache/cordova-plugin-geolocation):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-geolocation
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-geolocation-example
@@ -86,9 +89,6 @@ If you have any idea, please contact me.
 * [Dialogs](https://github.com/apache/cordova-plugin-dialogs):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-dialogs
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-dialogs-example
-* [File](https://github.com/apache/cordova-plugin-file):
-	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-file
-	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-file-example
 * [File-transfer](https://github.com/apache/cordova-plugin-file-transfer):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-file-transfer
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-file-transfer-example
