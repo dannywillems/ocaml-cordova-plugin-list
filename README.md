@@ -86,6 +86,9 @@ If you have any idea, please contact me.
 * [Calendar](https://github.com/EddyVerbruggen/Calendar-PhoneGap-Plugin)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-calendar
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-calendar-example
+* [Clipboard](https://github.com/VersoSolutions/CordovaClipboard)
+	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-clipboard
+	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-clipboard-example
 * [Contacts](https://github.com/apache/cordova-plugin-contacts)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-contacts
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-contacts-example
