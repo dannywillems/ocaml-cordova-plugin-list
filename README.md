@@ -104,6 +104,9 @@ If you have any idea, please contact me.
 * [Globalization](https://github.com/apache/cordova-plugin-globalization):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-globalization
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-globalization-example
+* [Image Picker](https://github.com/wymsee/cordova-imagePicker)
+	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-image-picker
+	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-image-picker-example
 * [Media](https://github.com/apache/cordova-plugin-media):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-media
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-media-example
