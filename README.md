@@ -71,7 +71,7 @@ If you have any idea, please contact me.
 * [QRScanner](https://github.com/bitpay/cordova-plugin-qrscanner): **Only iOS !!!**
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-qrscanner
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-qrscanner-example
- [StatusBar](https://github.com/apache/cordova-plugin-statusBar):
+* [StatusBar](https://github.com/apache/cordova-plugin-statusBar):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-statusbar
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-statusbar-example
 * [Toast](https://github.com/EddyVerbruggen/Toast-PhoneGap-Plugin):
@@ -83,6 +83,9 @@ If you have any idea, please contact me.
 
 ### In development
 
+* [Barcode Scanner](https://github.com/phonegap/phonegap-plugin-barcodescanner)
+	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-barcodescanner
+	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-barcodescanner-example
 * [Calendar](https://github.com/EddyVerbruggen/Calendar-PhoneGap-Plugin)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-calendar
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-calendar-example
