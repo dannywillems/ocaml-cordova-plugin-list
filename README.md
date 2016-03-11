@@ -77,6 +77,9 @@ If you have any idea, please contact me.
 * [Toast](https://github.com/EddyVerbruggen/Toast-PhoneGap-Plugin):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-toast
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-toast-example
+* [Touch ID](https://github.com/leecrossley/cordova-plugin-touchid)
+	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-touchid
+	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-touchid-example
 * [Vibration](https://github.com/apache/cordova-plugin-vibration):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-vibration
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-vibration-example
@@ -131,9 +134,6 @@ If you have any idea, please contact me.
 * [SQLite](https://github.com/litehelpers/Cordova-sqlite-storage)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-sqlite
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-sqlite-example
-* [Touch ID](https://github.com/leecrossley/cordova-plugin-touchid)
-	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-touch-id
-	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-touch-id-example
 * [Video](https://github.com/moust/cordova-plugin-videoplayer)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-videoplayer
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-videoplayer-example
