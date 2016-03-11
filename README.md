@@ -119,6 +119,9 @@ If you have any idea, please contact me.
 * [SMS](https://github.com/cordova-sms/cordova-sms-plugin)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-sms
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-sms-example
+* [SQLite](https://github.com/litehelpers/Cordova-sqlite-storage)
+	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-sqlite
+	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-sqlite-example
 * [Touch ID](https://github.com/leecrossley/cordova-plugin-touchid)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-touch-id
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-touch-id-example
