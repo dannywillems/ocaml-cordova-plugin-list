@@ -107,6 +107,9 @@ If you have any idea, please contact me.
 * [Image Picker](https://github.com/wymsee/cordova-imagePicker)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-image-picker
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-image-picker-example
+* [Local notifications](https://github.com/katzer/cordova-plugin-local-notifications/)
+	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-locale-notifications
+	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-locale-notifications-example
 * [Media](https://github.com/apache/cordova-plugin-media):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-media
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-media-example
