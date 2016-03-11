@@ -119,6 +119,9 @@ If you have any idea, please contact me.
 * [SMS](https://github.com/cordova-sms/cordova-sms-plugin)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-sms
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-sms-example
+* [Video](https://github.com/moust/cordova-plugin-videoplayer)
+	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-videoplayer
+	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-videoplayer-example
 
 ### Not planned
 
