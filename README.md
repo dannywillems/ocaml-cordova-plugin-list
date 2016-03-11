@@ -98,6 +98,9 @@ If you have any idea, please contact me.
 * [Dialogs](https://github.com/apache/cordova-plugin-dialogs):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-dialogs
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-dialogs-example
+* [File opener](https://github.com/pwlin/cordova-plugin-file-opener2)
+	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-file-opener
+	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-file-opener-example
 * [File-transfer](https://github.com/apache/cordova-plugin-file-transfer):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-file-transfer
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-file-transfer-example
