@@ -68,7 +68,10 @@ If you have any idea, please contact me.
 * [Insomnia](https://github.com/EddyVerbruggen/Insomnia-PhoneGap-Plugin):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-insomnia
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-insomnia-example
-* [StatusBar](https://github.com/apache/cordova-plugin-statusBar):
+* [QRScanner](https://github.com/bitpay/cordova-plugin-qrscanner): **Only iOS !!!**
+	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-qrscanner
+	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-qrscanner-example
+ [StatusBar](https://github.com/apache/cordova-plugin-statusBar):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-statusbar
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-statusbar-example
 * [Toast](https://github.com/EddyVerbruggen/Toast-PhoneGap-Plugin):
@@ -107,9 +110,6 @@ If you have any idea, please contact me.
 * [Push notifications](https://github.com/phonegap/phonegap-plugin-push)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-push-notifications
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-push-notifications-example
-* [QRScanner](https://github.com/bitpay/cordova-plugin-qrscanner):
-	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-qrscanner
-	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-qrscanner-example
 * [SMS](https://github.com/cordova-sms/cordova-sms-plugin)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-sms
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-sms-example
