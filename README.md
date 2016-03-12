@@ -28,7 +28,7 @@ You can contribute by testing the plugins, especially on Windows Phone and ios d
 ```
 cordova plugin add [plugin_name]
 ```
-* It could be interesting to analyse the source code of the cordova application (written in OCaml), detect used plugins and automatically run the cordova plugin add command.
+It could be interesting to analyse the source code of the cordova application (written in OCaml), detect used plugins and automatically run the cordova plugin add command.
 
 * The binding is very low-level: it uses the Js types and all bindings to Javascript types. It would be more useful and elegant to abstract the js_of_ocaml library use: the developer would be allowed to use 'standard' ocaml types instead of Js types. For example, a plugin which needs a Js.js_string Js.t could have an interface with a 'standard' string type. The developer would not know he uses a binding to javascript.
 
