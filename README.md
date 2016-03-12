@@ -84,6 +84,9 @@ If you have any idea, please contact me.
 
 ### In development
 
+* [ActivityIndicator](https://github.com/Initsogar/cordova-activityindicator)
+	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-activityindicator
+	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-activityindicator-example
 * [Barcode Scanner](https://github.com/phonegap/phonegap-plugin-barcodescanner)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-barcodescanner
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-barcodescanner-example
@@ -108,6 +111,9 @@ If you have any idea, please contact me.
 * [Image Picker](https://github.com/wymsee/cordova-imagePicker)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-image-picker
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-image-picker-example
+* [Loading Spinner](https://github.com/mobimentum/phonegap-plugin-loading-spinner)
+	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-loading-spinner
+	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-loading-spinner-example
 * [Local notifications](https://github.com/katzer/cordova-plugin-local-notifications/)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-locale-notifications
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-locale-notifications-example
@@ -120,6 +126,9 @@ If you have any idea, please contact me.
 * [Network-information](https://github.com/apache/cordova-plugin-network-information):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-network-information
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-media-network-information-example
+* [Progress](https://github.com/leecrossley/cordova-plugin-progress)
+	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-progress
+	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-progress-example
 * [Push notifications](https://github.com/phonegap/phonegap-plugin-push)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-push-notifications
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-push-notifications-example
