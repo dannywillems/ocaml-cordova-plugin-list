@@ -134,6 +134,9 @@ If you have any idea, please contact me.
 * [Push notifications](https://github.com/phonegap/phonegap-plugin-push)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-push-notifications
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-push-notifications-example
+* [Screen orientation](https://github.com/gbenvenuti/cordova-plugin-screen-orientation)
+	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-screen-orientation
+	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-screen-orientation-example
 * [SMS](https://github.com/cordova-sms/cordova-sms-plugin)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-sms
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-sms-example
