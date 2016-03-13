@@ -41,6 +41,9 @@ If you have any idea, please contact me.
 * [ActivityIndicator](https://github.com/Initsogar/cordova-activityindicator)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-activityindicator
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-activityindicator-example **Not developed**
+* [Barcode Scanner](https://github.com/phonegap/phonegap-plugin-barcodescanner)
+	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-barcodescanner
+	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-barcodescanner-example
 * Binding to cordova object:
 	* Source files: https://github.com/dannywillems/ocaml-cordova
 	* Example: https://github.com/dannywillems/ocaml-cordova-example
@@ -101,9 +104,6 @@ If you have any idea, please contact me.
 
 ### In development
 
-* [Barcode Scanner](https://github.com/phonegap/phonegap-plugin-barcodescanner)
-	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-barcodescanner
-	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-barcodescanner-example
 * [Calendar](https://github.com/EddyVerbruggen/Calendar-PhoneGap-Plugin)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-calendar
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-calendar-example
