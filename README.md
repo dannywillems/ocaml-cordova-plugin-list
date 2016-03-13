@@ -71,6 +71,9 @@ If you have any idea, please contact me.
 * [Insomnia](https://github.com/EddyVerbruggen/Insomnia-PhoneGap-Plugin):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-insomnia
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-insomnia-example
+* [Loading Spinner](https://github.com/mobimentum/phonegap-plugin-loading-spinner)
+	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-loading-spinner
+	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-loading-spinner-example
 * [Progress](https://github.com/leecrossley/cordova-plugin-progress) **Only iOS !!!**
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-progress
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-progress-example
@@ -119,9 +122,6 @@ If you have any idea, please contact me.
 * [Image Picker](https://github.com/wymsee/cordova-imagePicker)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-image-picker
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-image-picker-example
-* [Loading Spinner](https://github.com/mobimentum/phonegap-plugin-loading-spinner)
-	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-loading-spinner
-	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-loading-spinner-example
 * [Local notifications](https://github.com/katzer/cordova-plugin-local-notifications/)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-locale-notifications
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-locale-notifications-example
