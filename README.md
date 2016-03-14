@@ -101,6 +101,9 @@ If you have any idea, please contact me.
 * [Vibration](https://github.com/apache/cordova-plugin-vibration):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-vibration
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-vibration-example
+* [Video](https://github.com/moust/cordova-plugin-videoplayer)
+	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-videoplayer
+	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-videoplayer-example
 
 ### In development
 
@@ -143,9 +146,6 @@ If you have any idea, please contact me.
 * [SQLite](https://github.com/litehelpers/Cordova-sqlite-storage)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-sqlite
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-sqlite-example
-* [Video](https://github.com/moust/cordova-plugin-videoplayer)
-	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-videoplayer
-	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-videoplayer-example
 
 ### Not planned
 
