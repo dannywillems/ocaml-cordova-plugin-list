@@ -31,17 +31,15 @@ You can contribute by testing the plugins, especially on Windows Phone and ios d
 
 ## How does it work ?
 
-The majority of bindings has two tags: js_of_ocaml and gen_js_api.
+The majority of bindings has two branches: js_of_ocaml and gen_js_api (master).
 
-* The js_of_ocaml tag was the first done binding. It can be used on **compiler <= 4.02.3**. The weakness is the binding is **low-level** and depends on the **js_of_ocaml** library. You need to use Js type given by js_of_ocaml to use it. This binding is not provided for each plugin because **we do not recommend** to use this tag.
+* The js_of_ocaml branch was the first done binding. It can be used on **compiler <= 4.02.3**. The weakness is the binding is **low-level** and depends on the **js_of_ocaml** library. You need to use Js type given by js_of_ocaml to use it. This binding is not provided for each plugin because **we do not recommend** to use this tag.
 
-* The gen_js_api tag is the second binding and uses only gen_js_api. It allows you to use **any ocaml to javascript compiler** and has **high level binding**: you use 'standard' ocaml type such as string instead of Js.string type. The weakness is gen_js_api needs **compiler >= 4.03.0**.
-
-**The master branch is set to the gen_js_api tag.**
+* The gen_js_api branch (= master) is the second binding and uses only gen_js_api. It allows you to use **any ocaml to javascript compiler** and has **high level binding**: you use 'standard' ocaml type such as string instead of Js.string type. The weakness is gen_js_api needs **compiler >= 4.03.0**.
 
 **We recommend to use gen_js_api for simplicity and maintainability because we focus on the gen_js_api development.**
 
-For the gen_js_api tag, we provide only the mli file. You need to use gen_js_api to get the ml file and compile the mli and ml files as said in the [gen_js_api use instruction](https://github.com/LexiFi/gen_js_api/blob/master/INSTALL_AND_USE.md).
+For the gen_js_api binding, we only provide the mli file. You need to use gen_js_api to get the ml file and compile the mli and ml files as said in the [gen_js_api use instruction](https://github.com/LexiFi/gen_js_api/blob/master/INSTALL_AND_USE.md).
 
 ## Improvements (contribute !!)
 
