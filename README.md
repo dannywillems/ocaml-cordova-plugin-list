@@ -12,7 +12,11 @@ Js\_of\_ocaml provides a compiler from ocaml to javascript. It's a way to develo
 
 Gen_js_api:
 ```
-gen_js_api aims at simplifying the creation of OCaml bindings for Javascript libraries. It must currently be used with the js_of_ocaml compiler, although other ways to run OCaml code "against" Javascript might be supported later withthe same binding definitions (for instance, Bucklescript, or direct embedding of a JS engine in a native OCaml application).
+gen_js_api aims at simplifying the creation of OCaml bindings for Javascript
+libraries. It must currently be used with the js_of_ocaml compiler, although
+other ways to run OCaml code "against" Javascript might be supported later
+withthe same binding definitions (for instance, Bucklescript, or direct
+embedding of a JS engine in a native OCaml application).
 ```
 Source: [gen_js_api repository](https://github.com/lexifi/gen_js_api)
 
