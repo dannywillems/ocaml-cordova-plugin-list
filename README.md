@@ -1,8 +1,8 @@
 # ocaml-cordova-plugin-list
 
-This repository contains the plugin list of bindings in OCaml to cordova plugins using js_of_ocaml.
+This repository contains the plugin list of bindings in OCaml to cordova plugins using js_of_ocaml and gen_js_api.
 
-## What's cordova and js_of_ocaml ?
+## What's cordova, js_of_ocaml and gen_js_api ?
 
 Cordova allows you to develop hybrid mobile application using web technologies such as HTML, CSS and Javascript. For more informations, see [the official website](https://cordova.apache.org/).
 Through cordova plugins, you can access to the native components. To learn how to make cordova plugins, see [the official tutorial](https://cordova.apache.org/docs/en/latest/guide/hybrid/plugins/index.html).
@@ -10,38 +10,59 @@ You can find the official cordova plugin list [here](https://cordova.apache.org/
 
 Js\_of\_ocaml provides a compiler from ocaml to javascript. It's a way to develop Cordova application using ocaml. For more info, see [the ocsigen project](http://ocsigen.org/) which contains js\_of\_ocaml.
 
+Gen_js_api:
+```
+gen_js_api aims at simplifying the creation of OCaml bindings for Javascript libraries. It must currently be used with the js_of_ocaml compiler, although other ways to run OCaml code "against" Javascript might be supported later withthe same binding definitions (for instance, Bucklescript, or direct embedding of a JS engine in a native OCaml application).
+```
+Source: [gen_js_api repository](https://github.com/lexifi/gen_js_api)
+
 ## How to contribute.
 
-The name of the binding repository need to be:
-ocaml-**name** where name is the official cordova plugin name.
+The name of the binding repository needs to be: ocaml-**name** where name is the official cordova plugin name.
 For example, the binding to cordova-plugin-camera is in the ocaml-cordova-plugin-camera repository.
 
 This convention is not respected for 'non-official' plugin such as [Toast](https://github.com/EddyVerbruggen/Toast-PhoneGap-Plugin) which is officially in the cordova-plugin-x-toast. The binding repository is cordova-plugin-toast. Same for the [Touch ID](https://github.com/leecrossley/cordova-plugin-touchid) plugin whose the official plugin is cordova-universal-touchid.
 
 You can contribute by testing the plugins, especially on Windows Phone and ios devices.
 
+## How does it work ?
+
+The majority of bindings has two tags: js_of_ocaml and gen_js_api.
+
+* The js_of_ocaml tag was the first done binding. It can be used on **compiler <= 4.02.3**. The weakness is the binding is **low-level** and depends on the **js_of_ocaml** library. You need to use Js type given by js_of_ocaml to use it. This binding is not provided for each plugin because **we do not recommend** to use this tag.
+
+* The gen_js_api tag is the second binding and uses only gen_js_api. It allows you to use **any ocaml to javascript compiler** and has **high level binding**: you use 'standard' ocaml type such as string instead of Js.string type. The weakness is gen_js_api needs **compiler >= 4.03.0**.
+
+**The master branch is set to the gen_js_api tag.**
+
+**We recommend to use gen_js_api for simplicity and maintainability because we focus on the gen_js_api development.**
+
+For the gen_js_api tag, we provide only the mli file. You need to use gen_js_api to get the ml file and compile the mli and ml files as said in the [gen_js_api use instruction](https://github.com/LexiFi/gen_js_api/blob/master/INSTALL_AND_USE.md).
+
 ## Improvements (contribute !!)
 
-* For the moment, there are no ocaml documentations: we redirect you in the original plugin documentation and/or write comments in ml and mli files. We would like to have a full documentation for ocaml users. The goal is the ocaml developer would not know he's using a javascript binding.
+* For the moment, there are no ocaml documentations: we redirect you in the original plugin documentation and/or write comments in ml and mli files. We would like to have a full documentation for ocaml users.
 
-* The structure of the bindings is not well defined. For the moment, each binding to a cordova plugin has his own github repository, defining his own class type. It would be better to have a single file containing a single module named (for example) *cordova*. Each plugin will be a submodule.
+* The structure of the bindings is not well defined. For the moment, each binding to a cordova plugin has his own github repository, defining his own class. It would be better to have a single file containing a single module named (for example) *cordova*. Each plugin will be a submodule. We must think about dead code optimizer.
+
+* We could improve some plugins by using the cordova object. For example, some
+  files destination are only available on ios devices and for the moment, the
+  file plugin allows you to use them on android devices which gives null.
 
 * For the moment, you also need to add manually the original cordova plugin with
 ```
 cordova plugin add [plugin_name]
 ```
-It could be interesting to analyse the source code of the cordova application (written in OCaml), detect used plugins and automatically run the cordova plugin add command.
+It could be interesting to analyse the source code of the cordova application (written in OCaml), detect used plugins and automatically run the cordova plugin add command. Use [merlin](https://github.com/the-lambda-church/merlin) method to analyse the code ?
 
-* The binding is very low-level: it uses the Js types and all bindings to Javascript types. It would be more useful and elegant to abstract the js_of_ocaml library use: the developer would be allowed to use 'standard' ocaml types instead of Js types. For example, a plugin which needs a Js.js_string Js.t could have an interface with a 'standard' string type. The developer would not know he's using a binding to javascript.
-
-If you have any idea, please contact me.
+If you have any idea, please contact us.
 
 ## Bindings list
 
-* [ActivityIndicator](https://github.com/Initsogar/cordova-activityindicator)
+* [ActivityIndicator](https://github.com/Initsogar/cordova-activityindicator):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-activityindicator
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-activityindicator-example **Not developed**
-* [Barcode Scanner](https://github.com/phonegap/phonegap-plugin-barcodescanner)
+* [Barcode Scanner](https://github.com/phonegap/phonegap-plugin-barcodescanner):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-barcodescanner
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-barcodescanner-example
 * Binding to cordova object:
@@ -50,7 +71,7 @@ If you have any idea, please contact me.
 * [Camera](https://github.com/apache/cordova-plugin-camera):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-camera
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-camera-example
-* [Clipboard](https://github.com/VersoSolutions/CordovaClipboard)
+* [Clipboard](https://github.com/VersoSolutions/CordovaClipboard):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-clipboard
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-clipboard-example
 * [Device](https://github.com/apache/cordova-plugin-device):
@@ -74,22 +95,22 @@ If you have any idea, please contact me.
 * [Insomnia](https://github.com/EddyVerbruggen/Insomnia-PhoneGap-Plugin):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-insomnia
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-insomnia-example
-* [Loading Spinner](https://github.com/mobimentum/phonegap-plugin-loading-spinner)
+* [Loading Spinner](https://github.com/mobimentum/phonegap-plugin-loading-spinner):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-loading-spinner
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-loading-spinner-example
-* [Progress](https://github.com/leecrossley/cordova-plugin-progress) **Only iOS !!!**
+* [Progress](https://github.com/leecrossley/cordova-plugin-progress): **Only iOS !!!**
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-progress
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-progress-example
-* [Push notifications](https://github.com/phonegap/phonegap-plugin-push) **Partial**
+* [Push notifications](https://github.com/phonegap/phonegap-plugin-push): **Partial**
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-push-notifications
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-push-notifications-example
 * [QRScanner](https://github.com/bitpay/cordova-plugin-qrscanner): **Only iOS !!!**
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-qrscanner
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-qrscanner-example
-* [Screen orientation](https://github.com/gbenvenuti/cordova-plugin-screen-orientation)
+* [Screen orientation](https://github.com/gbenvenuti/cordova-plugin-screen-orientation):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-screen-orientation
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-screen-orientation-example
-* [SMS](https://github.com/cordova-sms/cordova-sms-plugin)
+* [SMS](https://github.com/cordova-sms/cordova-sms-plugin):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-sms
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-sms-example
 * [StatusBar](https://github.com/apache/cordova-plugin-statusBar):
@@ -98,28 +119,28 @@ If you have any idea, please contact me.
 * [Toast](https://github.com/EddyVerbruggen/Toast-PhoneGap-Plugin):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-toast
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-toast-example
-* [Touch ID](https://github.com/leecrossley/cordova-plugin-touchid) **Only iOS !!**
+* [Touch ID](https://github.com/leecrossley/cordova-plugin-touchid): **Only iOS !!**
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-touchid
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-touchid-example
 * [Vibration](https://github.com/apache/cordova-plugin-vibration):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-vibration
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-vibration-example
-* [Video](https://github.com/moust/cordova-plugin-videoplayer)
+* [Video](https://github.com/moust/cordova-plugin-videoplayer):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-videoplayer
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-videoplayer-example
 
 ### In development
 
-* [Calendar](https://github.com/EddyVerbruggen/Calendar-PhoneGap-Plugin)
+* [Calendar](https://github.com/EddyVerbruggen/Calendar-PhoneGap-Plugin):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-calendar
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-calendar-example
-* [Contacts](https://github.com/apache/cordova-plugin-contacts)
+* [Contacts](https://github.com/apache/cordova-plugin-contacts):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-contacts
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-contacts-example
 * [Dialogs](https://github.com/apache/cordova-plugin-dialogs):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-dialogs
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-dialogs-example
-* [File opener](https://github.com/pwlin/cordova-plugin-file-opener2)
+* [File opener](https://github.com/pwlin/cordova-plugin-file-opener2):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-file-opener
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-file-opener-example
 * [File-transfer](https://github.com/apache/cordova-plugin-file-transfer):
@@ -128,10 +149,10 @@ If you have any idea, please contact me.
 * [Globalization](https://github.com/apache/cordova-plugin-globalization):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-globalization
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-globalization-example
-* [Image Picker](https://github.com/wymsee/cordova-imagePicker)
+* [Image Picker](https://github.com/wymsee/cordova-imagePicker):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-image-picker
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-image-picker-example
-* [Local notifications](https://github.com/katzer/cordova-plugin-local-notifications/)
+* [Local notifications](https://github.com/katzer/cordova-plugin-local-notifications/):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-locale-notifications
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-locale-notifications-example
 * [Media](https://github.com/apache/cordova-plugin-media):
@@ -143,7 +164,7 @@ If you have any idea, please contact me.
 * [Network-information](https://github.com/apache/cordova-plugin-network-information):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-network-information
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-media-network-information-example
-* [SQLite](https://github.com/litehelpers/Cordova-sqlite-storage)
+* [SQLite](https://github.com/litehelpers/Cordova-sqlite-storage):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-sqlite
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-sqlite-example
 
@@ -152,3 +173,11 @@ If you have any idea, please contact me.
 * [Console](https://github.com/apache/cordova-plugin-console):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-console
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-console-example
+
+## Maintainers
+
+* Danny Willems
+  * Twitter: [@dwillems42](https://twitter.com/dwillems42)
+  * Github: https://github.com/dannywillems
+  * Email: contact@danny-willems.be
+  * Website: [danny-willems.be](https://danny-willems.be)
