@@ -115,6 +115,9 @@ If you have any idea, please contact us.
 * [SMS](https://github.com/cordova-sms/cordova-sms-plugin):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-sms
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-sms-example
+* [SplashScreen](https://github.com/apache/cordova-plugin-splashscreen)
+	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-splashscreen
+	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-splashscreen-example **Not developed**
 * [StatusBar](https://github.com/apache/cordova-plugin-statusBar):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-statusbar
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-statusbar-example
@@ -127,7 +130,7 @@ If you have any idea, please contact us.
 * [Vibration](https://github.com/apache/cordova-plugin-vibration):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-vibration
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-vibration-example
-* [Video](https://github.com/moust/cordova-plugin-videoplayer):
+* [Video](https://github.com/moust/cordova-plugin-videoplayer): **Android only**
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-videoplayer
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-videoplayer-example
 
