@@ -29,6 +29,8 @@ This convention is not respected for 'non-official' plugin such as [Toast](https
 
 You can contribute by testing the plugins, especially on Windows Phone and ios devices.
 
+Every plugins has an example application. Some are not done because we do not have time to do it (or we do not have any idea how to try it). Do not hesitate to develop them or test them. Those which don't have any example application were not tested but the code compiles.
+
 ## How does it work ?
 
 The majority of bindings has two branches: js_of_ocaml and gen_js_api (master).
