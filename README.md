@@ -106,6 +106,9 @@ If you have any idea, please contact us.
 * [Geolocation](https://github.com/apache/cordova-plugin-geolocation):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-geolocation
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-geolocation-example
+* [Globalization](https://github.com/apache/cordova-plugin-globalization):
+	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-globalization
+	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-globalization-example **Not developed**
 * [Inappbrowser](https://github.com/apache/cordova-plugin-inappbrowser):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-inappbrowser
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-inappbrowser-example
@@ -157,9 +160,6 @@ If you have any idea, please contact us.
 * [File-transfer](https://github.com/apache/cordova-plugin-file-transfer):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-file-transfer
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-file-transfer-example
-* [Globalization](https://github.com/apache/cordova-plugin-globalization):
-	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-globalization
-	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-globalization-example
 * [Image Picker](https://github.com/wymsee/cordova-imagePicker):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-image-picker
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-image-picker-example
