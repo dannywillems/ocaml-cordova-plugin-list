@@ -109,6 +109,9 @@ If you have any idea, please contact us.
 * [Globalization](https://github.com/apache/cordova-plugin-globalization):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-globalization
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-globalization-example **Not developed**
+* [Image Picker](https://github.com/wymsee/cordova-imagePicker):
+	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-image-picker
+	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-image-picker-example **Not developed**
 * [Inappbrowser](https://github.com/apache/cordova-plugin-inappbrowser):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-inappbrowser
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-inappbrowser-example
@@ -166,9 +169,6 @@ If you have any idea, please contact us.
 * [File-transfer](https://github.com/apache/cordova-plugin-file-transfer):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-file-transfer
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-file-transfer-example
-* [Image Picker](https://github.com/wymsee/cordova-imagePicker):
-	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-image-picker
-	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-image-picker-example
 * [Local notifications](https://github.com/katzer/cordova-plugin-local-notifications/):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-locale-notifications
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-locale-notifications-example
