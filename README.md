@@ -49,6 +49,8 @@ For the gen_js_api binding, we only provide the mli file. You need to use gen_js
 
 * When a function has an optional parameter in javascript, we created two functions with a different name which binds to the same function in javascript (to avoid the unit at the end). After using the bindings, we find it is more convenient to use the unit at the end instead of a new function with a different name. We need to change the interface to have function with optional parameters in OCaml.
 
+* Javascript function has sometimes a lot of parameters. Do we add labels for the bindings ?
+
 * The structure of the bindings is not well defined. For the moment, each binding to a cordova plugin has his own github repository, defining his own class. It would be better to have a single file containing a single module named (for example) *cordova*. Each plugin will be a submodule. We must think about dead code optimizer.
 
 * We could improve some plugins by using the cordova object. For example, some
