@@ -43,9 +43,11 @@ The majority of bindings has two branches: js_of_ocaml and gen_js_api (master).
 
 For the gen_js_api binding, we only provide the mli file. You need to use gen_js_api to get the ml file and compile the mli and ml files as said in the [gen_js_api use instruction](https://github.com/LexiFi/gen_js_api/blob/master/INSTALL_AND_USE.md).
 
-## Improvements (contribute !!)
+## Improvements/To-do (contribute !!)
 
 * For the moment, there are no ocaml documentations: we redirect you in the original plugin documentation and/or write comments in ml and mli files. We would like to have a full documentation for ocaml users.
+
+* When a function has an optional parameter in javascript, we created two functions with a different name which binds to the same function in javascript (to avoid the unit at the end). After using the bindings, we find it is more convenient to use the unit at the end instead of a new function with a different name. We need to change the interface to have function with optional parameters in OCaml.
 
 * The structure of the bindings is not well defined. For the moment, each binding to a cordova plugin has his own github repository, defining his own class. It would be better to have a single file containing a single module named (for example) *cordova*. Each plugin will be a submodule. We must think about dead code optimizer.
 
