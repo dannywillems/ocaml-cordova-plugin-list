@@ -118,6 +118,9 @@ If you have any idea, please contact us.
 * [Loading Spinner](https://github.com/mobimentum/phonegap-plugin-loading-spinner):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-loading-spinner
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-loading-spinner-example
+* [Media](https://github.com/apache/cordova-plugin-media):
+	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-media
+	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-media-example **Not developed**
 * [Progress](https://github.com/leecrossley/cordova-plugin-progress): **Only iOS !!!**
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-progress
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-progress-example
@@ -166,9 +169,6 @@ If you have any idea, please contact us.
 * [Local notifications](https://github.com/katzer/cordova-plugin-local-notifications/):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-locale-notifications
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-locale-notifications-example
-* [Media](https://github.com/apache/cordova-plugin-media):
-	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-media
-	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-media-example
 * [Media-capture](https://github.com/apache/cordova-plugin-media-capture):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-media-capture
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-media-capture-example
