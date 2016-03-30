@@ -121,6 +121,9 @@ If you have any idea, please contact us.
 * [Media](https://github.com/apache/cordova-plugin-media):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-media
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-media-example **Not developed**
+* [Network-information](https://github.com/apache/cordova-plugin-network-information):
+	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-network-information
+	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-network-information-example
 * [Progress](https://github.com/leecrossley/cordova-plugin-progress): **Only iOS !!!**
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-progress
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-progress-example
@@ -172,18 +175,12 @@ If you have any idea, please contact us.
 * [Media-capture](https://github.com/apache/cordova-plugin-media-capture):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-media-capture
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-media-capture-example
-* [Network-information](https://github.com/apache/cordova-plugin-network-information):
-	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-network-information
-	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-media-network-information-example
-* [SQLite](https://github.com/litehelpers/Cordova-sqlite-storage):
-	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-sqlite
-	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-sqlite-example
 
 ### Not planned
 
 * [Console](https://github.com/apache/cordova-plugin-console):
-	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-console
-	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-console-example
+
+* [SQLite](https://github.com/litehelpers/Cordova-sqlite-storage):
 
 ## Maintainers
 
