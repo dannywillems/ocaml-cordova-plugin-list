@@ -82,6 +82,9 @@ If you have any idea, please contact us.
 * [Clipboard](https://github.com/VersoSolutions/CordovaClipboard):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-clipboard
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-clipboard-example
+* [Contacts](https://github.com/apache/cordova-plugin-contacts): **Partial**
+	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-contacts
+	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-contacts-example
 * [Device](https://github.com/apache/cordova-plugin-device):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-device
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-device-example
@@ -91,6 +94,9 @@ If you have any idea, please contact us.
 * [Device-orientation](https://github.com/apache/cordova-plugin-device-orientation):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-device-orientation
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-device-orientation-example
+* [Dialogs](https://github.com/apache/cordova-plugin-dialogs):
+	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-dialogs
+	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-dialogs-example
 * [File](https://github.com/apache/cordova-plugin-file):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-file
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-file-example
@@ -145,12 +151,6 @@ If you have any idea, please contact us.
 * [Calendar](https://github.com/EddyVerbruggen/Calendar-PhoneGap-Plugin):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-calendar
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-calendar-example
-* [Contacts](https://github.com/apache/cordova-plugin-contacts):
-	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-contacts
-	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-contacts-example
-* [Dialogs](https://github.com/apache/cordova-plugin-dialogs):
-	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-dialogs
-	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-dialogs-example
 * [File opener](https://github.com/pwlin/cordova-plugin-file-opener2):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-file-opener
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-file-opener-example
