@@ -69,7 +69,6 @@ If you have any idea, please contact us.
 
 * [ActivityIndicator](https://github.com/Initsogar/cordova-activityindicator):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-activityindicator
-	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-activityindicator-example **Not developed**
 * [Barcode Scanner](https://github.com/phonegap/phonegap-plugin-barcodescanner):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-barcodescanner
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-barcodescanner-example
@@ -84,13 +83,11 @@ If you have any idea, please contact us.
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-clipboard-example
 * [Contacts](https://github.com/apache/cordova-plugin-contacts):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-contacts **Partial**
-	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-contacts-example **Not developed**
 * [Device](https://github.com/apache/cordova-plugin-device):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-device
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-device-example
 * [Device-motion](https://github.com/apache/cordova-plugin-device-motion):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-device-motion
-	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-device-motion-example **Not developed**
 * [Device-orientation](https://github.com/apache/cordova-plugin-device-orientation):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-device-orientation
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-device-orientation-example
@@ -100,7 +97,7 @@ If you have any idea, please contact us.
 * [File](https://github.com/apache/cordova-plugin-file):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-file
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-file-example
-* [File opener](https://github.com/pwlin/cordova-plugin-file-opener2): **Not developed**
+* [File opener](https://github.com/pwlin/cordova-plugin-file-opener2):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-file-opener
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-file-opener-example
 * [Geolocation](https://github.com/apache/cordova-plugin-geolocation):
@@ -108,31 +105,25 @@ If you have any idea, please contact us.
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-geolocation-example
 * [Globalization](https://github.com/apache/cordova-plugin-globalization):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-globalization
-	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-globalization-example **Not developed**
 * [Image Picker](https://github.com/wymsee/cordova-imagePicker):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-image-picker
-	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-image-picker-example **Not developed**
 * [Inappbrowser](https://github.com/apache/cordova-plugin-inappbrowser):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-inappbrowser
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-inappbrowser-example
 * [Insomnia](https://github.com/EddyVerbruggen/Insomnia-PhoneGap-Plugin):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-insomnia
-	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-insomnia-example **Not developed**
 * [Loading Spinner](https://github.com/mobimentum/phonegap-plugin-loading-spinner):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-loading-spinner
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-loading-spinner-example
 * [Media](https://github.com/apache/cordova-plugin-media):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-media
-	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-media-example **Not developed**
 * [Network-information](https://github.com/apache/cordova-plugin-network-information):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-network-information
-	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-network-information-example **Not developed**
 * [Progress](https://github.com/leecrossley/cordova-plugin-progress): **Only iOS !!!**
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-progress
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-progress-example
 * [Push notifications](https://github.com/phonegap/phonegap-plugin-push):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-push-notifications **Partial**
-	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-push-notifications-example **Not developed**
 * [QRScanner](https://github.com/bitpay/cordova-plugin-qrscanner): **Only iOS !!!**
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-qrscanner
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-qrscanner-example
@@ -144,7 +135,6 @@ If you have any idea, please contact us.
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-sms-example
 * [SplashScreen](https://github.com/apache/cordova-plugin-splashscreen)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-splashscreen
-	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-splashscreen-example **Not developed**
 * [StatusBar](https://github.com/apache/cordova-plugin-statusBar):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-statusbar
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-statusbar-example
@@ -159,7 +149,6 @@ If you have any idea, please contact us.
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-vibration-example
 * [Video](https://github.com/moust/cordova-plugin-videoplayer): **Android only**
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-videoplayer
-	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-videoplayer-example **Not developed**
 
 ### In development
 
