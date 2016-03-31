@@ -82,15 +82,15 @@ If you have any idea, please contact us.
 * [Clipboard](https://github.com/VersoSolutions/CordovaClipboard):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-clipboard
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-clipboard-example
-* [Contacts](https://github.com/apache/cordova-plugin-contacts): **Partial**
-	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-contacts
-	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-contacts-example
+* [Contacts](https://github.com/apache/cordova-plugin-contacts):
+	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-contacts **Partial**
+	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-contacts-example **Not developed**
 * [Device](https://github.com/apache/cordova-plugin-device):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-device
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-device-example
 * [Device-motion](https://github.com/apache/cordova-plugin-device-motion):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-device-motion
-	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-device-motion-example
+	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-device-motion-example **Not developed**
 * [Device-orientation](https://github.com/apache/cordova-plugin-device-orientation):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-device-orientation
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-device-orientation-example
@@ -117,7 +117,7 @@ If you have any idea, please contact us.
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-inappbrowser-example
 * [Insomnia](https://github.com/EddyVerbruggen/Insomnia-PhoneGap-Plugin):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-insomnia
-	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-insomnia-example
+	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-insomnia-example **Not developed**
 * [Loading Spinner](https://github.com/mobimentum/phonegap-plugin-loading-spinner):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-loading-spinner
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-loading-spinner-example
@@ -126,13 +126,13 @@ If you have any idea, please contact us.
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-media-example **Not developed**
 * [Network-information](https://github.com/apache/cordova-plugin-network-information):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-network-information
-	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-network-information-example
+	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-network-information-example **Not developed**
 * [Progress](https://github.com/leecrossley/cordova-plugin-progress): **Only iOS !!!**
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-progress
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-progress-example
-* [Push notifications](https://github.com/phonegap/phonegap-plugin-push): **Partial**
-	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-push-notifications
-	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-push-notifications-example
+* [Push notifications](https://github.com/phonegap/phonegap-plugin-push):
+	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-push-notifications **Partial**
+	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-push-notifications-example **Not developed**
 * [QRScanner](https://github.com/bitpay/cordova-plugin-qrscanner): **Only iOS !!!**
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-qrscanner
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-qrscanner-example
@@ -159,7 +159,7 @@ If you have any idea, please contact us.
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-vibration-example
 * [Video](https://github.com/moust/cordova-plugin-videoplayer): **Android only**
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-videoplayer
-	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-videoplayer-example
+	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-videoplayer-example **Not developed**
 
 ### In development
 
