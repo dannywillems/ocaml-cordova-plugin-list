@@ -117,6 +117,8 @@ If you have any idea, please contact us.
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-loading-spinner-example
 * [Media](https://github.com/apache/cordova-plugin-media):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-media
+* [Media-capture](https://github.com/apache/cordova-plugin-media-capture):
+	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-media-capture
 * [Network-information](https://github.com/apache/cordova-plugin-network-information):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-network-information
 * [Progress](https://github.com/leecrossley/cordova-plugin-progress): **Only iOS !!!**
@@ -161,9 +163,6 @@ If you have any idea, please contact us.
 * [Local notifications](https://github.com/katzer/cordova-plugin-local-notifications/):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-locale-notifications
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-locale-notifications-example
-* [Media-capture](https://github.com/apache/cordova-plugin-media-capture):
-	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-media-capture
-	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-media-capture-example
 
 ### Not planned
 
