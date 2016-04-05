@@ -121,6 +121,7 @@ If you have any idea, please contact us.
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-media-capture
 * [Network-information](https://github.com/apache/cordova-plugin-network-information):
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-network-information
+	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-network-information-example
 * [Progress](https://github.com/leecrossley/cordova-plugin-progress): **Only iOS !!!**
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-progress
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-progress-example
