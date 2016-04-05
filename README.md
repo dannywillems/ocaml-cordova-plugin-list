@@ -155,14 +155,9 @@ If you have any idea, please contact us.
 ### In development
 
 * [Calendar](https://github.com/EddyVerbruggen/Calendar-PhoneGap-Plugin):
-	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-calendar
-	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-calendar-example
+* [Facebook] (https://github.com/jeduan/cordova-plugin-facebook4)
 * [File-transfer](https://github.com/apache/cordova-plugin-file-transfer):
-	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-file-transfer
-	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-file-transfer-example
 * [Local notifications](https://github.com/katzer/cordova-plugin-local-notifications/):
-	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-locale-notifications
-	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-locale-notifications-example
 
 ### Not planned
 
