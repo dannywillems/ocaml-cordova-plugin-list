@@ -43,15 +43,23 @@ The majority of bindings has two branches: js_of_ocaml and gen_js_api (master).
 
 For the gen_js_api binding, we only provide the mli file. You need to use gen_js_api to get the ml file and compile the mli and ml files as said in the [gen_js_api use instruction](https://github.com/LexiFi/gen_js_api/blob/master/INSTALL_AND_USE.md).
 
+## How can I use a binding ?
+
+**It's not in release !!**
+
+Each binding has an opam repository you need to pin. For example, the binding to the camera is contained in the ocaml-cordova-plugin-camera repository. You need to pin it with:
+```
+opam pin add cordova-plugin-camera https://github.com/dannywillems/ocaml-cordova-plugin-camera
+```
+
+If the plugin needs the [binding to the standard js library](https://github.com/dannywillems/ocaml-js-stdlib) such as device-motion, you need to pin the ocaml-js-stdlib repository first.
+In each repository, you have the command you need to use.
+
 ## Improvements/To-do (contribute !!)
 
 * For the moment, there are no ocaml documentations: we redirect you in the original plugin documentation and/or write comments in ml and mli files. We would like to have a full documentation for ocaml users.
 
-* When a function has an optional parameter in javascript, we created two functions with a different name which binds to the same function in javascript (to avoid the unit at the end). After using the bindings, we find it is more convenient to use the unit at the end instead of a new function with a different name. We need to change the interface to have function with optional parameters in OCaml.
-
 * Javascript function has sometimes a lot of parameters. Do we add labels for the bindings ?
-
-* The structure of the bindings is not well defined. For the moment, each binding to a cordova plugin has his own github repository, defining his own class. It would be better to have a single file containing a single module named (for example) *cordova*. Each plugin will be a submodule. We must think about dead code optimizer.
 
 * We could improve some plugins by using the cordova object. For example, some
   files destination are only available on ios devices and for the moment, the
@@ -67,96 +75,96 @@ If you have any idea, please contact us.
 
 ## Bindings list
 
-* [ActivityIndicator](https://github.com/Initsogar/cordova-activityindicator):
+* [ActivityIndicator](https://github.com/Initsogar/cordova-activityindicator): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-activityindicator.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-activityindicator)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-activityindicator
-* [Barcode Scanner](https://github.com/phonegap/phonegap-plugin-barcodescanner):
+* [Barcode Scanner](https://github.com/phonegap/phonegap-plugin-barcodescanner): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-barcodescanner.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-barcodescanner)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-barcodescanner
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-barcodescanner-example
 * Binding to cordova object:
 	* Source files: https://github.com/dannywillems/ocaml-cordova
 	* Example: https://github.com/dannywillems/ocaml-cordova-example
-* [Camera](https://github.com/apache/cordova-plugin-camera):
+* [Camera](https://github.com/apache/cordova-plugin-camera): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-camera.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-camera)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-camera
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-camera-example
-* [Clipboard](https://github.com/VersoSolutions/CordovaClipboard):
+* [Clipboard](https://github.com/VersoSolutions/CordovaClipboard): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-clipboard.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-clipboard)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-clipboard
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-clipboard-example
-* [Contacts](https://github.com/apache/cordova-plugin-contacts):
+* [Contacts](https://github.com/apache/cordova-plugin-contacts): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-contacts.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-contacts)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-contacts **Partial**
-* [Device](https://github.com/apache/cordova-plugin-device):
+* [Device](https://github.com/apache/cordova-plugin-device): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-device.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-device)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-device
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-device-example
-* [Device-motion](https://github.com/apache/cordova-plugin-device-motion):
+* [Device-motion](https://github.com/apache/cordova-plugin-device-motion): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-device-motion.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-device-motion)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-device-motion
-* [Device-orientation](https://github.com/apache/cordova-plugin-device-orientation):
+* [Device-orientation](https://github.com/apache/cordova-plugin-device-orientation): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-device-orientation.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-device-orientation)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-device-orientation
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-device-orientation-example
-* [Dialogs](https://github.com/apache/cordova-plugin-dialogs):
+* [Dialogs](https://github.com/apache/cordova-plugin-dialogs): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-dialogs.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-dialogs)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-dialogs
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-dialogs-example
-* [File](https://github.com/apache/cordova-plugin-file):
+* [File](https://github.com/apache/cordova-plugin-file): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-file.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-file)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-file
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-file-example
-* [File opener](https://github.com/pwlin/cordova-plugin-file-opener2):
+* [File opener](https://github.com/pwlin/cordova-plugin-file-opener2):[![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-file-opener.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-file-opener)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-file-opener
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-file-opener-example
-* [Geolocation](https://github.com/apache/cordova-plugin-geolocation):
+* [Geolocation](https://github.com/apache/cordova-plugin-geolocation): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-geolocation.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-geolocation)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-geolocation
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-geolocation-example
-* [Globalization](https://github.com/apache/cordova-plugin-globalization):
+* [Globalization](https://github.com/apache/cordova-plugin-globalization): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-globalization.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-globalization)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-globalization
-* [Image Picker](https://github.com/wymsee/cordova-imagePicker):
+* [Image Picker](https://github.com/wymsee/cordova-imagePicker): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-image-picker.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-image-picker)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-image-picker
-* [Inappbrowser](https://github.com/apache/cordova-plugin-inappbrowser):
+* [Inappbrowser](https://github.com/apache/cordova-plugin-inappbrowser): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-inappbrowser.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-inappbrowser)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-inappbrowser
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-inappbrowser-example
-* [Insomnia](https://github.com/EddyVerbruggen/Insomnia-PhoneGap-Plugin):
+* [Insomnia](https://github.com/EddyVerbruggen/Insomnia-PhoneGap-Plugin):[![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-insomnia.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-insomnia)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-insomnia
-* [Loading Spinner](https://github.com/mobimentum/phonegap-plugin-loading-spinner):
+* [Loading Spinner](https://github.com/mobimentum/phonegap-plugin-loading-spinner): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-loading-spinner.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-loading-spinner)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-loading-spinner
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-loading-spinner-example
-* [Media](https://github.com/apache/cordova-plugin-media):
+* [Media](https://github.com/apache/cordova-plugin-media): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-media.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-media)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-media
-* [Media-capture](https://github.com/apache/cordova-plugin-media-capture):
+* [Media-capture](https://github.com/apache/cordova-plugin-media-capture): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-media-capture.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-media-capture)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-media-capture
-* [Network-information](https://github.com/apache/cordova-plugin-network-information):
+* [Network-information](https://github.com/apache/cordova-plugin-network-information): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-network-information.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-network-information)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-network-information
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-network-information-example
-* [Progress](https://github.com/leecrossley/cordova-plugin-progress): **Only iOS !!!**
+* [Progress](https://github.com/leecrossley/cordova-plugin-progress): **Only iOS !!!** [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-progress.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-progress)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-progress
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-progress-example
-* [Push notifications](https://github.com/phonegap/phonegap-plugin-push):
+* [Push notifications](https://github.com/phonegap/phonegap-plugin-push): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-push.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-push)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-push-notifications **Partial**
-* [QRScanner](https://github.com/bitpay/cordova-plugin-qrscanner): **Only iOS !!!**
+* [QRScanner](https://github.com/bitpay/cordova-plugin-qrscanner): **Only iOS !!!** [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-qrscanner.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-qrscanner)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-qrscanner
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-qrscanner-example
-* [Screen orientation](https://github.com/gbenvenuti/cordova-plugin-screen-orientation):
+* [Screen orientation](https://github.com/gbenvenuti/cordova-plugin-screen-orientation): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-screen-orientation.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-screen-orientation)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-screen-orientation
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-screen-orientation-example
-* [SMS](https://github.com/cordova-sms/cordova-sms-plugin):
+* [SMS](https://github.com/cordova-sms/cordova-sms-plugin): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-sms.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-sms)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-sms
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-sms-example
-* [SplashScreen](https://github.com/apache/cordova-plugin-splashscreen)
+* [SplashScreen](https://github.com/apache/cordova-plugin-splashscreen): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-splashscreen.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-splashscreen)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-splashscreen
-* [StatusBar](https://github.com/apache/cordova-plugin-statusBar):
+* [StatusBar](https://github.com/apache/cordova-plugin-statusBar): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-statusbar.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-statusbar)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-statusbar
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-statusbar-example
-* [Toast](https://github.com/EddyVerbruggen/Toast-PhoneGap-Plugin):
+* [Toast](https://github.com/EddyVerbruggen/Toast-PhoneGap-Plugin): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-toast.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-toast)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-toast
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-toast-example
-* [Touch ID](https://github.com/leecrossley/cordova-plugin-touchid): **Only iOS !!**
+* [Touch ID](https://github.com/leecrossley/cordova-plugin-touchid): **Only iOS !!** [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-touchid.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-touchid)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-touchid
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-touchid-example
-* [Vibration](https://github.com/apache/cordova-plugin-vibration):
+* [Vibration](https://github.com/apache/cordova-plugin-vibration): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-vibration.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-vibration)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-vibration
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-vibration-example
-* [Video](https://github.com/moust/cordova-plugin-videoplayer): **Android only**
+* [Video](https://github.com/moust/cordova-plugin-videoplayer): **Android only** [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-videoplayer.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-videoplayer)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-videoplayer
 
 ### In development
 
 * [Calendar](https://github.com/EddyVerbruggen/Calendar-PhoneGap-Plugin):
-* [Facebook] (https://github.com/jeduan/cordova-plugin-facebook4)
+* [Facebook] (https://github.com/jeduan/cordova-plugin-facebook4):
 * [File-transfer](https://github.com/apache/cordova-plugin-file-transfer):
 * [Local notifications](https://github.com/katzer/cordova-plugin-local-notifications/):
 
