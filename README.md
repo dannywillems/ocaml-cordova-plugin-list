@@ -166,12 +166,12 @@ If you have any idea, please contact us.
 * [Calendar](https://github.com/EddyVerbruggen/Calendar-PhoneGap-Plugin):
 * [Facebook] (https://github.com/jeduan/cordova-plugin-facebook4):
 * [File-transfer](https://github.com/apache/cordova-plugin-file-transfer):
+* [Hot code push](https://github.com/nordnet/cordova-hot-code-push):
 * [Local notifications](https://github.com/katzer/cordova-plugin-local-notifications/):
 
 ### Not planned
 
 * [Console](https://github.com/apache/cordova-plugin-console):
-
 * [SQLite](https://github.com/litehelpers/Cordova-sqlite-storage):
 
 ## Maintainers
