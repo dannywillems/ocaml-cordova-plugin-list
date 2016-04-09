@@ -1,5 +1,7 @@
 # ocaml-cordova-plugin-list
 
+[![Join the chat at https://gitter.im/dannywillems/ocaml-cordova-plugin-list](https://badges.gitter.im/dannywillems/ocaml-cordova-plugin-list.svg)](https://gitter.im/dannywillems/ocaml-cordova-plugin-list?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 This repository contains the plugin list of bindings in OCaml to cordova plugins using js_of_ocaml and gen_js_api.
 
 ## What's cordova, js_of_ocaml and gen_js_api ?
