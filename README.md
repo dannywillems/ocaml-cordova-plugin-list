@@ -29,9 +29,10 @@ For example, the binding to cordova-plugin-camera is in the ocaml-cordova-plugin
 
 This convention is not respected for 'non-official' plugin such as [Toast](https://github.com/EddyVerbruggen/Toast-PhoneGap-Plugin) which is officially in the cordova-plugin-x-toast. The binding repository is cordova-plugin-toast. Same for the [Touch ID](https://github.com/leecrossley/cordova-plugin-touchid) plugin whose the official plugin is cordova-universal-touchid.
 
-You can contribute by testing the plugins, especially on Windows Phone and ios devices.
-
-Every plugins has an example application. Some are not done because we do not have time to do it (or we do not have any idea how to try it). Do not hesitate to develop them or test them. Those which don't have any example application were not tested but the code compiles.
+You can contribute by
+* testing the plugins, especially on Windows Phone and ios devices.
+* writing ocaml documentation.
+* writing an example application. Some are not done because we do not have time to do it (or we do not have any idea how to try it). Do not hesitate to develop them or test them. Those which don't have any example application were not tested but the code compiles.
 
 ## How does it work ?
 
@@ -59,14 +60,14 @@ In each repository, you have the command you need to use.
 
 ## Improvements/To-do (contribute !!)
 
+* In documentation, change 4.03.0+beta1 to 4.03.0.
+* Update travis.yml to 4.03.0, not 4.03.0+beta1.
+* Create a bindings plugin market like cordova plugins have [here](https://cordova.apache.org/plugins/).
 * For the moment, there are no ocaml documentations: we redirect you in the original plugin documentation and/or write comments in ml and mli files. We would like to have a full documentation for ocaml users.
-
 * Javascript function has sometimes a lot of parameters. Do we add labels for the bindings ?
-
 * We could improve some plugins by using the cordova object. For example, some
   files destination are only available on ios devices and for the moment, the
   file plugin allows you to use them on android devices which gives null.
-
 * For the moment, you also need to add manually the original cordova plugin with
 ```
 cordova plugin add [plugin_name]
@@ -165,11 +166,13 @@ If you have any idea, please contact us.
 
 ### In development
 
-* [Calendar](https://github.com/EddyVerbruggen/Calendar-PhoneGap-Plugin):
-* [Facebook] (https://github.com/jeduan/cordova-plugin-facebook4):
-* [File-transfer](https://github.com/apache/cordova-plugin-file-transfer):
-* [Hot code push](https://github.com/nordnet/cordova-hot-code-push):
-* [Local notifications](https://github.com/katzer/cordova-plugin-local-notifications/):
+* [Calendar](https://github.com/EddyVerbruggen/Calendar-PhoneGap-Plugin)
+* [Facebook] (https://github.com/jeduan/cordova-plugin-facebook4)
+* [File-transfer](https://github.com/apache/cordova-plugin-file-transfer)
+* [Hot code push](https://github.com/nordnet/cordova-hot-code-push)
+* [Local notifications](https://github.com/katzer/cordova-plugin-local-notifications/)
+* [Date Picker](https://github.com/VitaliiBlagodir/cordova-plugin-datepicker)
+* [Keyboard](https://github.com/cjpearson/cordova-plugin-keyboard)
 
 ### Not planned
 
