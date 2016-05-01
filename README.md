@@ -60,8 +60,6 @@ In each repository, you have the command you need to use.
 
 ## Improvements/To-do (contribute !!)
 
-* In documentation, change 4.03.0+beta1 to 4.03.0.
-* Update travis.yml to 4.03.0, not 4.03.0+beta1.
 * Create a bindings plugin market like cordova plugins have [here](https://cordova.apache.org/plugins/).
 * For the moment, there are no ocaml documentations: we redirect you in the original plugin documentation and/or write comments in ml and mli files. We would like to have a full documentation for ocaml users.
 * Javascript function has sometimes a lot of parameters. Do we add labels for the bindings ?
