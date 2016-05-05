@@ -171,6 +171,7 @@ If you have any idea, please contact us.
 * [Local notifications](https://github.com/katzer/cordova-plugin-local-notifications/)
 * [Date Picker](https://github.com/VitaliiBlagodir/cordova-plugin-datepicker)
 * [Keyboard](https://github.com/cjpearson/cordova-plugin-keyboard)
+* [SIM Card](https://github.com/pbakondy/cordova-plugin-sim)
 
 ### Not planned
 
