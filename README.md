@@ -180,6 +180,11 @@ If you have any idea, please contact us.
 * [Console](https://github.com/apache/cordova-plugin-console):
 * [SQLite](https://github.com/litehelpers/Cordova-sqlite-storage):
 
+### For inspiration
+
+* [Telerik market](http://plugins.telerik.com/cordova): Cordova and NativeScript
+  plugin market. Can be a source of inspiration.
+
 ## Maintainers
 
 * Danny Willems
