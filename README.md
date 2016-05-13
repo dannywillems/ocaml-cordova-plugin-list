@@ -172,6 +172,8 @@ If you have any idea, please contact us.
 * [Date Picker](https://github.com/VitaliiBlagodir/cordova-plugin-datepicker)
 * [Keyboard](https://github.com/cjpearson/cordova-plugin-keyboard)
 * [SIM Card](https://github.com/pbakondy/cordova-plugin-sim)
+* [Social Sharing](https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin)
+* [Custom URL Scheme](https://github.com/EddyVerbruggen/Custom-URL-scheme)
 
 ### Not planned
 
