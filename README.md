@@ -63,6 +63,7 @@ In each repository, you have the command you need to use.
 * Create a bindings plugin market like cordova plugins have [here](https://cordova.apache.org/plugins/).
 * For the moment, there are no ocaml documentations: we redirect you in the original plugin documentation and/or write comments in ml and mli files. We would like to have a full documentation for ocaml users.
 * Javascript function has sometimes a lot of parameters. Do we add labels for the bindings ?
+* Bindings need to be update when the original plugin is updated.
 * We could improve some plugins by using the cordova object. For example, some
   files destination are only available on ios devices and for the moment, the
   file plugin allows you to use them on android devices which gives null.
@@ -174,6 +175,8 @@ If you have any idea, please contact us.
 * [SIM Card](https://github.com/pbakondy/cordova-plugin-sim)
 * [Social Sharing](https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin)
 * [Custom URL Scheme](https://github.com/EddyVerbruggen/Custom-URL-scheme)
+* [Bluetooth Serial](https://github.com/don/BluetoothSerial)
+* [Google Maps](https://github.com/mapsplugin/cordova-plugin-googlemaps)
 
 ### Not planned
 
@@ -184,6 +187,7 @@ If you have any idea, please contact us.
 
 * [Telerik market](http://plugins.telerik.com/cordova): Cordova and NativeScript
   plugin market. Can be a source of inspiration.
+* [PlugReg](http://www.plugreg.com/): list of cordova plugins.
 
 ## Maintainers
 
