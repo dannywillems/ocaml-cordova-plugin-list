@@ -98,6 +98,7 @@ If you have any idea, please contact us.
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-device-example
 * [Device-motion](https://github.com/apache/cordova-plugin-device-motion): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-device-motion.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-device-motion)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-device-motion
+	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-device-motion-example
 * [Device-orientation](https://github.com/apache/cordova-plugin-device-orientation): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-device-orientation.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-device-orientation)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-device-orientation
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-device-orientation-example
