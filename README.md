@@ -58,6 +58,18 @@ opam pin add cordova-plugin-camera https://github.com/dannywillems/ocaml-cordova
 If the plugin needs the [binding to the standard js library](https://github.com/dannywillems/ocaml-js-stdlib) such as device-motion, you need to pin the ocaml-js-stdlib repository first.
 In each repository, you have the command you need to use.
 
+**Be careful**
+Most of bindings create new objects which are only available when the
+device ready is handled. You need to have as first lines:
+```OCaml
+let on_device_ready () =
+	(* Your code using plugins here *)
+
+let _ = Cordova.Event.device_ready on_device_ready
+```
+
+The module *Cordova* comes from the [bindings to the cordova object](https://github.com/dannywillems/ocaml-cordova) so you need to add it for each project.
+
 ## Improvements/To-do (contribute !!)
 
 * Create a bindings plugin market like cordova plugins have [here](https://cordova.apache.org/plugins/).
