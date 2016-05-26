@@ -85,6 +85,8 @@ cordova plugin add [plugin_name]
 ```
 It could be interesting to analyse the source code of the cordova application (written in OCaml), detect used plugins and automatically run the cordova plugin add command. Use [merlin](https://github.com/the-lambda-church/merlin) method to analyse the code ?
 
+* A binary like *cordova* to create new cordova project in OCaml and simplify when the user wants to add a plugin.
+
 If you have any idea, please contact us.
 
 ## Bindings list
