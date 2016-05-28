@@ -168,6 +168,9 @@ If you have any idea, please contact us.
 * [Screen orientation](https://github.com/gbenvenuti/cordova-plugin-screen-orientation): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-screen-orientation.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-screen-orientation)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-screen-orientation
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-screen-orientation-example
+* [SIM Card](https://github.com/pbakondy/cordova-plugin-sim): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-sim-card.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-sim-card)
+	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-sim-card
+	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-sim-card-example
 * [SMS](https://github.com/cordova-sms/cordova-sms-plugin): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-sms.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-sms)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-sms
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-sms-example
@@ -195,7 +198,6 @@ If you have any idea, please contact us.
 * [File-transfer](https://github.com/apache/cordova-plugin-file-transfer)
 * [Hot code push](https://github.com/nordnet/cordova-hot-code-push)
 * [Local notifications](https://github.com/katzer/cordova-plugin-local-notifications/)
-* [SIM Card](https://github.com/pbakondy/cordova-plugin-sim)
 * [Social Sharing](https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin)
 * [Custom URL Scheme](https://github.com/EddyVerbruggen/Custom-URL-scheme)
 * [Bluetooth Serial](https://github.com/don/BluetoothSerial)
