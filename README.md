@@ -6,61 +6,61 @@
 
 This repository contains the plugin list of bindings in OCaml to cordova plugins using js_of_ocaml and gen_js_api.
 
-## What's cordova, js_of_ocaml and gen_js_api ?
+- [ocaml-cordova-plugin-list](#ocaml-cordova-plugin-list)
+  * [What is Cordova, js_of_ocaml and gen_js_api?](#what-is-cordova-js_of_ocaml-and-gen_js_api)
+  * [How does it work?](#how-does-it-work)
+  * [How can I use a binding?](#how-can-i-use-a-binding)
+  * [Be careful](#be-careful)
+  * [Improvements and To-do](#improvements-and-to-do)
+  * [Bindings list](#bindings-list)
+    + [In development](#in-development)
+    + [Not planned](#not-planned)
+    + [For inspiration](#for-inspiration)
+  * [Maintainers](#maintainers)
 
-Cordova allows you to develop hybrid mobile application using web technologies such as HTML, CSS and Javascript. For more informations, see [the official website](https://cordova.apache.org/).
-Through cordova plugins, you can access to the native components. To learn how to make cordova plugins, see [the official tutorial](https://cordova.apache.org/docs/en/latest/guide/hybrid/plugins/index.html).
+## What are Cordova, js_of_ocaml and gen_js_api?
+
+* [Cordova](https://cordova.apache.org) allows you to develop hybrid mobile applications using web technologies such as HTML, CSS and Javascript. For more informations, see [the official website](https://cordova.apache.org/).
+Through cordova plugins, you can access to the native components. To learn how to make Cordova plugins, see [the official tutorial](https://cordova.apache.org/docs/en/latest/guide/hybrid/plugins/index.html).
 You can find the official cordova plugin list [here](https://cordova.apache.org/plugins/).
 
-Js\_of\_ocaml provides a compiler from ocaml to javascript. It's a way to develop Cordova application using ocaml. For more info, see [the ocsigen project](http://ocsigen.org/) which contains js\_of\_ocaml.
+* [js\_of\_ocaml](https://ocsigen.org/js_of_ocaml) provides a compiler from OCaml to Javascript. Since Cordova applications use Javascript, js\_of\_ocaml provides a way to develop mobile application using OCaml. For more info, see [the Ocsigen project](http://ocsigen.org/) which contains js\_of\_ocaml.
 
-Gen_js_api:
-```
-gen_js_api aims at simplifying the creation of OCaml bindings for Javascript
-libraries. It must currently be used with the js_of_ocaml compiler, although
-other ways to run OCaml code "against" Javascript might be supported later
-withthe same binding definitions (for instance, Bucklescript, or direct
-embedding of a JS engine in a native OCaml application).
-```
-Source: [gen_js_api repository](https://github.com/lexifi/gen_js_api)
+* [gen_js_api](https://github.com/lexifi/gen_js_api) aims at simplifying the creation of OCaml bindings for Javascript libraries. It must currently be used with the js_of_ocaml compiler, although other ways to run OCaml code "against" Javascript might be supported later withthe same binding definitions (for instance, Bucklescript, or direct embedding of a JS engine in a native OCaml application).
 
-## How to contribute.
+## How does it work?
 
-The name of the binding repository needs to be: ocaml-**name** where name is the official cordova plugin name.
-For example, the binding to cordova-plugin-camera is in the ocaml-cordova-plugin-camera repository.
+Some bindings has two branches: gen_js_api (master) and js_of_ocaml.
 
-This convention is not respected for 'non-official' plugin such as [Toast](https://github.com/EddyVerbruggen/Toast-PhoneGap-Plugin) which is officially in the cordova-plugin-x-toast. The binding repository is cordova-plugin-toast. Same for the [Touch ID](https://github.com/leecrossley/cordova-plugin-touchid) plugin whose the official plugin is cordova-universal-touchid.
+* The gen_js_api branch (= master) uses only gen_js_api. It will allow you to use **any OCaml to javascript compiler** and has **high level binding**: you use «standard» OCaml types such as string instead of Js.js_string type. The weakness is gen_js_api needs **compiler >= 4.03.0**.
 
-You can contribute by
-* testing the plugins, especially on Windows Phone and ios devices.
-* writing ocaml documentation.
-* writing an example application. Some are not done because we do not have time to do it (or we do not have any idea how to try it). Do not hesitate to develop them or test them. Those which don't have any example application were not tested but the code compiles.
+* **DEPRECATED**. The js_of_ocaml branch was the first done binding. It can be used on **compiler >= 4.00.0**. The weakness is the binding is **low-level** and depends on the **js_of_ocaml** library. You need to use Js types given by js_of_ocaml to use it. Bindings are not provided for each plugin.
 
-## How does it work ?
+**Use gen_js_api for simplicity and maintainability because js_of_ocaml branch still not supported.**
 
-The majority of bindings has two branches: js_of_ocaml and gen_js_api (master).
+## How can I use a binding?
 
-* The js_of_ocaml branch was the first done binding. It can be used on **compiler <= 4.02.3**. The weakness is the binding is **low-level** and depends on the **js_of_ocaml** library. You need to use Js type given by js_of_ocaml to use it. This binding is not provided for each plugin because **we do not recommend** to use this tag.
+**It's not in release!!**
 
-* The gen_js_api branch (= master) is the second binding and uses only gen_js_api. It allows you to use **any ocaml to javascript compiler** and has **high level binding**: you use 'standard' ocaml type such as string instead of Js.string type. The weakness is gen_js_api needs **compiler >= 4.03.0**.
+**Needs compiler >= 4.03.0**
 
-**We recommend to use gen_js_api for simplicity and maintainability because we focus on the gen_js_api development.**
-
-For the gen_js_api binding, we only provide the mli file. You need to use gen_js_api to get the ml file and compile the mli and ml files as said in the [gen_js_api use instruction](https://github.com/LexiFi/gen_js_api/blob/master/INSTALL_AND_USE.md).
-
-## How can I use a binding ?
-
-**It's not in release !!**
-
-Each binding has an opam repository you need to pin. For example, the binding to the camera is contained in the ocaml-cordova-plugin-camera repository. You need to pin it with:
-```
-opam pin add cordova-plugin-camera https://github.com/dannywillems/ocaml-cordova-plugin-camera
+This repository contains all opam repositories of the bindings (each binding has one repository for some reasons). It is **recommended** to add this repository as a remote opam package provider with
+```Shell
+opam repository add cordova https://github.com/dannywillems/ocaml-cordova-plugin-list.git
 ```
 
-If the plugin needs the [binding to the standard js library](https://github.com/dannywillems/ocaml-js-stdlib) such as device-motion, you need to pin the ocaml-js-stdlib repository first.
-In each repository, you have the command you need to use.
+Each binding can now be installed. For example, the binding to the camera plugin is `cordova-plugin-camera`. So, if you want to install the camera binding, you need to use
+```
+opam install cordova-plugin-camera
+```
 
-**Be careful**
+If the plugin needs the binding to the standard js library such as [device-motion](https://github.com/dannywillems/ocaml-cordova-plugin-device-motion), you need to pin the [ocaml-js-stdlib](https://github.com/dannywillems/ocaml-js-stdlib) first.
+If the plugin needs it, it is mentionned in the Github repository.
+
+If you don't want to add this repository, you can manually pin each repository.
+
+## Be careful
+
 Most of bindings create new objects which are only available when the
 device ready is handled. You need to have as first lines:
 ```OCaml
@@ -70,13 +70,16 @@ let on_device_ready () =
 let _ = Cordova.Event.device_ready on_device_ready
 ```
 
-The module *Cordova* comes from the [bindings to the cordova object](https://github.com/dannywillems/ocaml-cordova) so you need to add it for each project.
+The module *Cordova* comes from the [bindings to the cordova object](https://github.com/dannywillems/ocaml-cordova) so you need to add it for each project. This module can be installed with
+```
+opam install cordova
+```
 
-## Improvements/To-do (contribute !!)
+## Improvements and To-do
 
 * Create a bindings plugin market like cordova plugins have [here](https://cordova.apache.org/plugins/).
-* For the moment, there are no ocaml documentations: we redirect you in the original plugin documentation and/or write comments in ml and mli files. We would like to have a full documentation for ocaml users.
-* Javascript function has sometimes a lot of parameters. Do we add labels for the bindings ?
+* For the moment, there are no OCaml documentations: we redirect you in the original plugin documentation and/or write comments in ml and mli files. We would like to have a full documentation for OCaml users.
+* Javascript function has sometimes a lot of parameters. Do we add labels for the bindings?
 * Bindings need to be update when the original plugin is updated.
 * We could improve some plugins by using the cordova object. For example, some
   files destination are only available on ios devices and for the moment, the
@@ -85,7 +88,7 @@ The module *Cordova* comes from the [bindings to the cordova object](https://git
 ```
 cordova plugin add [plugin_name]
 ```
-It could be interesting to analyse the source code of the cordova application (written in OCaml), detect used plugins and automatically run the cordova plugin add command. Use [merlin](https://github.com/the-lambda-church/merlin) method to analyse the code ?
+It could be interesting to analyse the source code of the cordova application (written in OCaml), detect used plugins and automatically run the cordova plugin add command. Use [merlin](https://github.com/the-lambda-church/merlin) method to analyse the code?
 
 * A binary like *cordova* to create new cordova project in OCaml and simplify when the user wants to add a plugin.
 
@@ -149,12 +152,12 @@ If you have any idea, please contact us.
 * [Network-information](https://github.com/apache/cordova-plugin-network-information): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-network-information.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-network-information)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-network-information
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-network-information-example
-* [Progress](https://github.com/leecrossley/cordova-plugin-progress): **Only iOS !!!** [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-progress.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-progress)
+* [Progress](https://github.com/leecrossley/cordova-plugin-progress): **Only iOS!!!** [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-progress.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-progress)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-progress
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-progress-example
 * [Push notifications](https://github.com/phonegap/phonegap-plugin-push): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-push.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-push)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-push-notifications **Partial**
-* [QRScanner](https://github.com/bitpay/cordova-plugin-qrscanner): **Only iOS !!!** [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-qrscanner.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-qrscanner)
+* [QRScanner](https://github.com/bitpay/cordova-plugin-qrscanner): **Only iOS!!!** [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-qrscanner.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-qrscanner)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-qrscanner
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-qrscanner-example
 * [Screen orientation](https://github.com/gbenvenuti/cordova-plugin-screen-orientation): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-screen-orientation.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-screen-orientation)
@@ -171,7 +174,7 @@ If you have any idea, please contact us.
 * [Toast](https://github.com/EddyVerbruggen/Toast-PhoneGap-Plugin): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-toast.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-toast)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-toast
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-toast-example
-* [Touch ID](https://github.com/leecrossley/cordova-plugin-touchid): **Only iOS !!** [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-touchid.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-touchid)
+* [Touch ID](https://github.com/leecrossley/cordova-plugin-touchid): **Only iOS!!** [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-touchid.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-touchid)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-touchid
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-touchid-example
 * [Vibration](https://github.com/apache/cordova-plugin-vibration): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-vibration.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-vibration)
