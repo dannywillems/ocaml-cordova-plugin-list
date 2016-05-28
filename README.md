@@ -138,6 +138,8 @@ If you have any idea, please contact us.
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-geolocation-example
 * [Globalization](https://github.com/apache/cordova-plugin-globalization): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-globalization.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-globalization)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-globalization
+* [Keyboard](https://github.com/cjpearson/cordova-plugin-keyboard): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-keyboard.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-keyboard)
+	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-keyboard
 * [Image Picker](https://github.com/wymsee/cordova-imagePicker): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-image-picker.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-image-picker)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-image-picker
 * [Inappbrowser](https://github.com/apache/cordova-plugin-inappbrowser): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-inappbrowser.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-inappbrowser)
@@ -193,7 +195,6 @@ If you have any idea, please contact us.
 * [File-transfer](https://github.com/apache/cordova-plugin-file-transfer)
 * [Hot code push](https://github.com/nordnet/cordova-hot-code-push)
 * [Local notifications](https://github.com/katzer/cordova-plugin-local-notifications/)
-* [Keyboard](https://github.com/cjpearson/cordova-plugin-keyboard)
 * [SIM Card](https://github.com/pbakondy/cordova-plugin-sim)
 * [Social Sharing](https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin)
 * [Custom URL Scheme](https://github.com/EddyVerbruggen/Custom-URL-scheme)
