@@ -147,7 +147,7 @@ If you have any idea, please contact us.
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-inappbrowser-example
 * [Insomnia](https://github.com/EddyVerbruggen/Insomnia-PhoneGap-Plugin):[![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-insomnia.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-insomnia)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-insomnia
-* [Loading Spinner](https://github.com/mobimentum/phonegap-plugin-loading-spinner): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-loading-spinner.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-loading-spinner)
+* [Loading Spinner](https://github.com/mobimentum/phonegap-plugin-loading-spinner): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-loading-spinner.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-loading-spinner) **Deprecated: working on Cordova < 4**
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-loading-spinner
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-loading-spinner-example
 * [Media](https://github.com/apache/cordova-plugin-media): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-media.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-media)
