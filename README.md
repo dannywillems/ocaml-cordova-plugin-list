@@ -112,6 +112,9 @@ If you have any idea, please contact us.
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-clipboard-example
 * [Contacts](https://github.com/apache/cordova-plugin-contacts): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-contacts.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-contacts)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-contacts **Partial**
+* [Date Picker](https://github.com/VitaliiBlagodir/cordova-plugin-datepicker): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-datepicker.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-datepicker)
+	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-datepicker
+	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-datepicker-example
 * [Device](https://github.com/apache/cordova-plugin-device): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-device.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-device)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-device
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-device-example
@@ -190,7 +193,6 @@ If you have any idea, please contact us.
 * [File-transfer](https://github.com/apache/cordova-plugin-file-transfer)
 * [Hot code push](https://github.com/nordnet/cordova-hot-code-push)
 * [Local notifications](https://github.com/katzer/cordova-plugin-local-notifications/)
-* [Date Picker](https://github.com/VitaliiBlagodir/cordova-plugin-datepicker)
 * [Keyboard](https://github.com/cjpearson/cordova-plugin-keyboard)
 * [SIM Card](https://github.com/pbakondy/cordova-plugin-sim)
 * [Social Sharing](https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin)
