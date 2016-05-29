@@ -174,8 +174,8 @@ If you have any idea, please contact us.
 * [SMS](https://github.com/cordova-sms/cordova-sms-plugin): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-sms.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-sms)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-sms
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-sms-example
-* [Social Sharing](https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin)
-	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-social-sharing
+* [Social Sharing](https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin) [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-sms.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-sms)
+	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-social-sharing **Partial**
 * [SplashScreen](https://github.com/apache/cordova-plugin-splashscreen): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-splashscreen.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-splashscreen)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-splashscreen
 * [StatusBar](https://github.com/apache/cordova-plugin-statusBar): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-statusbar.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-statusbar)
