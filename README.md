@@ -102,6 +102,9 @@ If you have any idea, please contact us.
 * [Barcode Scanner](https://github.com/phonegap/phonegap-plugin-barcodescanner): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-barcodescanner.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-barcodescanner)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-barcodescanner
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-barcodescanner-example
+* [Battery](https://github.com/apache/cordova-plugin-battery-status): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-battery-status.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-battery-status)
+	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-battery-status
+	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-battery-status-example
 * Binding to cordova object:
 	* Source files: https://github.com/dannywillems/ocaml-cordova
 	* Example: https://github.com/dannywillems/ocaml-cordova-example
