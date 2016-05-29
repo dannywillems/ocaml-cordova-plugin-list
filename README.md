@@ -96,9 +96,9 @@ If you have any idea, please contact us.
 
 ## Bindings list
 
-* [ActivityIndicator](https://github.com/Initsogar/cordova-activityindicator): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-activityindicator.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-activityindicator)
-	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-activityindicator
-	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-activityindicator-example
+* [ActivityIndicator](https://github.com/Initsogar/cordova-activityindicator): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-activity-indicator.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-activity-indicator)
+	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-activity-indicator
+	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-activity-indicator-example
 * [Barcode Scanner](https://github.com/phonegap/phonegap-plugin-barcodescanner): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-barcodescanner.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-barcodescanner)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-barcodescanner
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-barcodescanner-example
