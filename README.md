@@ -105,7 +105,7 @@ If you have any idea, please contact us.
 * [Battery](https://github.com/apache/cordova-plugin-battery-status): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-battery-status.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-battery-status)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-battery-status
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-battery-status-example
-* Binding to cordova object:
+* Binding to cordova object: [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova)
 	* Source files: https://github.com/dannywillems/ocaml-cordova
 	* Example: https://github.com/dannywillems/ocaml-cordova-example
 * [Camera](https://github.com/apache/cordova-plugin-camera): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-camera.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-camera)
