@@ -194,7 +194,7 @@ If you have any idea, please contact us.
 * [Vibration](https://github.com/apache/cordova-plugin-vibration): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-vibration.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-vibration)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-vibration
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-vibration-example
-* [Video](https://github.com/moust/cordova-plugin-videoplayer): **Android only** [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-videoplayer.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-videoplayer)
+* [Videoplayer](https://github.com/moust/cordova-plugin-videoplayer): **Android only** [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-videoplayer.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-videoplayer)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-videoplayer
 
 ### In development
