@@ -1,1 +1,1 @@
-Binding to the barcode scanner cordova plugin using gen_js_api
+Binding OCaml to cordova-plugin-barcode-scanner using gen_js_api
