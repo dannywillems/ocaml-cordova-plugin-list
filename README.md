@@ -36,7 +36,7 @@ Some bindings has two branches: gen_js_api (master) and js_of_ocaml.
 
 * **DEPRECATED**. The js_of_ocaml branch was the first done binding. It can be used on **compiler >= 4.00.0**. The weakness is the binding is **low-level** and depends on the **js_of_ocaml** library. You need to use Js types given by js_of_ocaml to use it. Bindings are not provided for each plugin.
 
-**Use gen_js_api for simplicity and maintainability because js_of_ocaml branch still not supported.**
+**Use gen_js_api for simplicity and maintainability because js_of_ocaml branch is no longer supported.**
 
 ## How can I use a binding?
 
