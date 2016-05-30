@@ -62,7 +62,7 @@ If you don't want to add this repository, you can manually pin each repository.
 ## Be careful
 
 Most of bindings create new objects which are only available when the
-device ready is handled. You need to have as first lines:
+device ready fired. You need to have as first lines:
 ```OCaml
 let on_device_ready () =
 	(* Your code using plugins here *)
