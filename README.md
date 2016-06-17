@@ -205,11 +205,11 @@ If you have any idea, please contact us.
 * [Hot code push](https://github.com/nordnet/cordova-hot-code-push)
 * [Local notifications](https://github.com/katzer/cordova-plugin-local-notifications/)
 * [Custom URL Scheme](https://github.com/EddyVerbruggen/Custom-URL-scheme)
-* [Bluetooth Serial](https://github.com/don/BluetoothSerial)
 * [Google Maps](https://github.com/mapsplugin/cordova-plugin-googlemaps)
 
 ### Not planned
 
+* [Bluetooth Serial](https://github.com/don/BluetoothSerial)
 * [Console](https://github.com/apache/cordova-plugin-console):
 * [SQLite](https://github.com/litehelpers/Cordova-sqlite-storage):
 
