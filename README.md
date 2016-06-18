@@ -40,8 +40,6 @@ Some bindings has two branches: gen_js_api (master) and js_of_ocaml.
 
 ## How can I use a binding?
 
-**It's not in release!!**
-
 **Needs compiler >= 4.03.0**
 
 This repository contains all opam repositories of the bindings (each binding has one repository for some reasons). It is **recommended** to add this repository as a remote opam package provider with
@@ -58,6 +56,53 @@ If the plugin needs the binding to the standard js library such as [device-motio
 If the plugin needs it, it is mentionned in the Github repository.
 
 If you don't want to add this repository, you can manually pin each repository.
+
+## What about documentation for each bindings?
+
+Bindings interface are very closed to initial plugins Javascript interface. For
+example, for the cordova-plugin-camera allowing you to take a picture through
+*navigator.camera.getPicture* Javascript function, you use *Cordova_camera.get_picture*
+OCaml function.
+The equivalent OCaml code to
+```Javascript
+var success_callback = function(success) {
+	console.log(success);
+}
+
+var error_callback = function(error) {
+	console.log(error);
+}
+
+var options = {quality: 25; destinationType: Camera.DestinationType.DATA_URL}
+
+navigator.camera.getPicture(success_callback, error_callback, options)
+```
+is
+```OCaml
+let success_callback success = Jsoo_lib.console_log success in
+
+let error_callback error = Jsoo_lib.console_log error in
+
+let options =
+	Cordova_camera.create_options
+		~quality:25
+		~destination_type:Cordova_camera.Data_url
+		()
+	in
+
+Cordova_camera.get_picture success_callback error_callback ~opt:options ()
+```
+
+(supposing Jsoo_lib.console_log is the binding to console.log function, see
+[jsoo_lib](https://github.com/dannywillems/jsoo-lib)). Most functions are
+implemented with optional arguments and these arguments are at the end of the
+arguments list, so unit is often mandatory.
+
+As the OCaml interface is very closed to Javascript interface, no OCaml
+documentation is done yet. **Feel free to contribute**
+
+Bindings which don't have example application are not tested. Please give a
+feedback about it and open issues if it's the case.
 
 ## Be careful
 
@@ -79,8 +124,6 @@ opam install cordova
 
 * Create a bindings plugin market like cordova plugins have [here](https://cordova.apache.org/plugins/).
 * For the moment, there are no OCaml documentations: we redirect you in the original plugin documentation and/or write comments in ml and mli files. We would like to have a full documentation for OCaml users.
-* Javascript function has sometimes a lot of parameters. Do we add labels for the bindings?
-* Bindings need to be update when the original plugin is updated.
 * We could improve some plugins by using the cordova object. For example, some
   files destination are only available on ios devices and for the moment, the
   file plugin allows you to use them on android devices which gives null.
@@ -91,8 +134,6 @@ cordova plugin add [plugin_name]
 It could be interesting to analyse the source code of the cordova application (written in OCaml), detect used plugins and automatically run the cordova plugin add command. Use [merlin](https://github.com/the-lambda-church/merlin) method to analyse the code?
 
 * A binary like *cordova* to create new cordova project in OCaml and simplify when the user wants to add a plugin.
-
-If you have any idea, please contact us.
 
 ## Bindings list
 
