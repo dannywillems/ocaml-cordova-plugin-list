@@ -218,7 +218,6 @@ feedback about it and open issues if it's the case.
 * [Facebook] (https://github.com/jeduan/cordova-plugin-facebook4)
 * [Hot code push](https://github.com/nordnet/cordova-hot-code-push)
 * [Local notifications](https://github.com/katzer/cordova-plugin-local-notifications/)
-* [Custom URL Scheme](https://github.com/EddyVerbruggen/Custom-URL-scheme)
 * [Google Maps](https://github.com/mapsplugin/cordova-plugin-googlemaps)
 * [Email composer](https://github.com/katzer/cordova-plugin-email-composer)
 
@@ -226,6 +225,7 @@ feedback about it and open issues if it's the case.
 
 * [Bluetooth Serial](https://github.com/don/BluetoothSerial)
 * [Console](https://github.com/apache/cordova-plugin-console):
+* [Custom URL Scheme](https://github.com/EddyVerbruggen/Custom-URL-scheme)
 * [SQLite](https://github.com/litehelpers/Cordova-sqlite-storage):
 
 ## MISC
