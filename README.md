@@ -137,6 +137,8 @@ If you have any idea, please contact us.
 * [File opener](https://github.com/pwlin/cordova-plugin-file-opener2):[![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-file-opener.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-file-opener)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-file-opener
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-file-opener-example
+* [File-transfer](https://github.com/apache/cordova-plugin-file-transfer):[![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-file-transfer.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-file-transfer)
+	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-file-transfer
 * [Geolocation](https://github.com/apache/cordova-plugin-geolocation): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-geolocation.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-geolocation)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-geolocation
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-geolocation-example
@@ -201,7 +203,6 @@ If you have any idea, please contact us.
 
 * [Calendar](https://github.com/EddyVerbruggen/Calendar-PhoneGap-Plugin)
 * [Facebook] (https://github.com/jeduan/cordova-plugin-facebook4)
-* [File-transfer](https://github.com/apache/cordova-plugin-file-transfer)
 * [Hot code push](https://github.com/nordnet/cordova-hot-code-push)
 * [Local notifications](https://github.com/katzer/cordova-plugin-local-notifications/)
 * [Custom URL Scheme](https://github.com/EddyVerbruggen/Custom-URL-scheme)
