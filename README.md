@@ -104,37 +104,6 @@ documentation is done yet. **Feel free to contribute**
 Bindings which don't have example application are not tested. Please give a
 feedback about it and open issues if it's the case.
 
-## Be careful
-
-Most of bindings create new objects which are only available when the
-deviceready event fires. You need to have as first lines:
-```OCaml
-let on_device_ready () =
-	(* Your code using plugins here *)
-
-let _ = Cordova.Event.device_ready on_device_ready
-```
-
-The module *Cordova* comes from the [bindings to the cordova object](https://github.com/dannywillems/ocaml-cordova) so you need to add it for each project. This module can be installed with
-```
-opam install cordova
-```
-
-## Improvements and To-do
-
-* Create a bindings plugin market like cordova plugins have [here](https://cordova.apache.org/plugins/).
-* For the moment, there are no OCaml documentations: we redirect you in the original plugin documentation and/or write comments in ml and mli files. We would like to have a full documentation for OCaml users.
-* We could improve some plugins by using the cordova object. For example, some
-  files destination are only available on ios devices and for the moment, the
-  file plugin allows you to use them on android devices which gives null.
-* For the moment, you also need to add manually the original cordova plugin with
-```
-cordova plugin add [plugin_name]
-```
-It could be interesting to analyse the source code of the cordova application (written in OCaml), detect used plugins and automatically run the cordova plugin add command. Use [merlin](https://github.com/the-lambda-church/merlin) method to analyse the code?
-
-* A binary like *cordova* to create new cordova project in OCaml and simplify when the user wants to add a plugin.
-
 ## Bindings list
 
 * [ActivityIndicator](https://github.com/Initsogar/cordova-activityindicator): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-activity-indicator.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-activity-indicator)
@@ -248,6 +217,7 @@ It could be interesting to analyse the source code of the cordova application (w
 * [Local notifications](https://github.com/katzer/cordova-plugin-local-notifications/)
 * [Custom URL Scheme](https://github.com/EddyVerbruggen/Custom-URL-scheme)
 * [Google Maps](https://github.com/mapsplugin/cordova-plugin-googlemaps)
+* [Email composer](https://github.com/katzer/cordova-plugin-email-composer)
 
 ### Not planned
 
@@ -255,11 +225,51 @@ It could be interesting to analyse the source code of the cordova application (w
 * [Console](https://github.com/apache/cordova-plugin-console):
 * [SQLite](https://github.com/litehelpers/Cordova-sqlite-storage):
 
-### For inspiration
+## MISC
 
+## Be careful!
+
+Most of bindings create new objects which are only available when the
+deviceready event fires. You need to have as first lines:
+```OCaml
+let on_device_ready () =
+	(* Your code using plugins here *)
+
+let _ = Cordova.Event.device_ready on_device_ready
+```
+
+The module *Cordova* comes from the [bindings to the cordova object](https://github.com/dannywillems/ocaml-cordova) so you need to add it for each project. This module can be installed with
+```
+opam install cordova
+```
+
+### Help me! I need a binding but it is not listed!
+
+Simply make a pull request and add it in the TO-DO section. Other people could be also interested.
+
+### I did a binding to a Cordova plugin which are not listed or not yet done.
+
+It will be a pleasure to add your binding to the list. Don't forget to add a license to your repository: LGPL or less restrictive (MIT, Apache, etc) is recommended. GPL will not be accepted because is too much restrictive.
+
+Here some *plugin market* for inspiration
 * [Telerik market](http://plugins.telerik.com/cordova): Cordova and NativeScript
   plugin market. Can be a source of inspiration.
 * [PlugReg](http://www.plugreg.com/): list of cordova plugins.
+
+### Improvements and To-do
+
+* Create a bindings plugin market like cordova plugins have [here](https://cordova.apache.org/plugins/).
+* For the moment, there are no OCaml documentations: we redirect you in the original plugin documentation and/or write comments in ml and mli files. We would like to have a full documentation for OCaml users.
+* We could improve some plugins by using the cordova object. For example, some
+  files destination are only available on ios devices and for the moment, the
+  file plugin allows you to use them on android devices which gives null.
+* For the moment, you also need to add manually the original cordova plugin with
+```
+cordova plugin add [plugin_name]
+```
+It could be interesting to analyse the source code of the cordova application (written in OCaml), detect used plugins and automatically run the cordova plugin add command. Use [merlin](https://github.com/the-lambda-church/merlin) method to analyse the code?
+
+* A binary like *cordova* to create new cordova project in OCaml and simplify when the user wants to add a plugin.
 
 ## Maintainers
 
