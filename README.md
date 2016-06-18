@@ -10,12 +10,15 @@ This repository contains the plugin list of bindings in OCaml to cordova plugins
   * [What are Cordova, js_of_ocaml and gen_js_api?](#what-are-cordova-js_of_ocaml-and-gen_js_api)
   * [How does it work?](#how-does-it-work)
   * [How can I use a binding?](#how-can-i-use-a-binding)
-  * [Be careful](#be-careful)
-  * [Improvements and To-do](#improvements-and-to-do)
+  * [What about documentation for each bindings?](#what-about-documentation-for-each-bindings)
   * [Bindings list](#bindings-list)
     + [In development](#in-development)
     + [Not planned](#not-planned)
-    + [For inspiration](#for-inspiration)
+  * [MISC](#misc)
+    * [Be careful!](#be-careful)
+    + [Help me! I need a binding but it is not listed!](#help-me-i-need-a-binding-but-it-is-not-listed)
+    + [I did a binding to a Cordova plugin which are not listed or not yet done.](#i-did-a-binding-to-a-cordova-plugin-which-are-not-listed-or-not-yet-done)
+    + [Improvements and To-do](#improvements-and-to-do)
   * [Maintainers](#maintainers)
 
 ## What are Cordova, js_of_ocaml and gen_js_api?
@@ -227,7 +230,7 @@ feedback about it and open issues if it's the case.
 
 ## MISC
 
-## Be careful!
+### Be careful!
 
 Most of bindings create new objects which are only available when the
 deviceready event fires. You need to have as first lines:
