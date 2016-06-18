@@ -4,7 +4,7 @@
 
 [![Join the chat at https://gitter.im/dannywillems/ocaml-cordova-plugin-list](https://badges.gitter.im/dannywillems/ocaml-cordova-plugin-list.svg)](https://gitter.im/dannywillems/ocaml-cordova-plugin-list?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-This repository contains the plugin list of bindings in OCaml to cordova plugins using js_of_ocaml and gen_js_api.
+This repository contains the plugin list of bindings in OCaml to Cordova plugins using js_of_ocaml and gen_js_api.
 
 - [ocaml-cordova-plugin-list](#ocaml-cordova-plugin-list)
   * [What are Cordova, js_of_ocaml and gen_js_api?](#what-are-cordova-js_of_ocaml-and-gen_js_api)
@@ -24,8 +24,8 @@ This repository contains the plugin list of bindings in OCaml to cordova plugins
 ## What are Cordova, js_of_ocaml and gen_js_api?
 
 * [Cordova](https://cordova.apache.org) allows you to develop hybrid mobile applications using web technologies such as HTML, CSS and Javascript. For more informations, see [the official website](https://cordova.apache.org/).
-Through cordova plugins, you can access to the native components. To learn how to make Cordova plugins, see [the official tutorial](https://cordova.apache.org/docs/en/latest/guide/hybrid/plugins/index.html).
-You can find the official cordova plugin list [here](https://cordova.apache.org/plugins/).
+Through Cordova plugins, you can access to the native components. To learn how to make Cordova plugins, see [the official tutorial](https://cordova.apache.org/docs/en/latest/guide/hybrid/plugins/index.html).
+You can find the official Cordova plugin list [here](https://cordova.apache.org/plugins/).
 
 * [js\_of\_ocaml](https://ocsigen.org/js_of_ocaml) provides a compiler from OCaml to Javascript. Since Cordova applications use Javascript, js\_of\_ocaml provides a way to develop mobile application using OCaml. For more info, see [the Ocsigen project](http://ocsigen.org/) which contains js\_of\_ocaml.
 
@@ -257,22 +257,22 @@ It will be a pleasure to add your binding to the list. Don't forget to add a lic
 Here some *plugin market* for inspiration
 * [Telerik market](http://plugins.telerik.com/cordova): Cordova and NativeScript
   plugin market. Can be a source of inspiration.
-* [PlugReg](http://www.plugreg.com/): list of cordova plugins.
+* [PlugReg](http://www.plugreg.com/): list of Cordova plugins.
 
 ### Improvements and To-do
 
-* Create a bindings plugin market like cordova plugins have [here](https://cordova.apache.org/plugins/).
+* Create a bindings plugin market like Cordova plugins have [here](https://cordova.apache.org/plugins/).
 * For the moment, there are no OCaml documentations: we redirect you in the original plugin documentation and/or write comments in ml and mli files. We would like to have a full documentation for OCaml users.
 * We could improve some plugins by using the cordova object. For example, some
   files destination are only available on ios devices and for the moment, the
   file plugin allows you to use them on android devices which gives null.
-* For the moment, you also need to add manually the original cordova plugin with
+* For the moment, you also need to add manually the original Cordova plugin with
 ```
 cordova plugin add [plugin_name]
 ```
-It could be interesting to analyse the source code of the cordova application (written in OCaml), detect used plugins and automatically run the cordova plugin add command. Use [merlin](https://github.com/the-lambda-church/merlin) method to analyse the code?
+It could be interesting to analyse the source code of the Cordova application (written in OCaml), detect used plugins and automatically run the cordova plugin add command. Use [merlin](https://github.com/the-lambda-church/merlin) method to analyse the code?
 
-* A binary like *cordova* to create new cordova project in OCaml and simplify when the user wants to add a plugin.
+* A binary like *cordova* to create new Cordova project in OCaml and simplify when the user wants to add a plugin.
 
 ## Maintainers
 
