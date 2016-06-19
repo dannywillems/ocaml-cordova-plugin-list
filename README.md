@@ -284,3 +284,10 @@ It could be interesting to analyse the source code of the Cordova application (w
   * Github: https://github.com/dannywillems
   * Email: contact@danny-willems.be
   * Website: [danny-willems.be](https://danny-willems.be)
+
+## Related projects
+
+* [OCaml for web programming](https://github.com/dannywillems/ocaml-for-web-programming)
+* [Jsoo_lib](https://github.com/dannywillems/jsoo-lib)
+* [ocaml-materializecss](https://github.com/dannywillems/ocaml-materializecss)
+* [Ocsigen](https://ocsigen.org)
