@@ -55,6 +55,8 @@ Each binding can now be installed. For example, the binding to the camera plugin
 opam install cordova-plugin-camera
 ```
 
+The appropriate opam package is given in the appropriate Github repository (list is given [below](#bindings-list)).
+
 If the plugin needs the binding to the standard js library such as [device-motion](https://github.com/dannywillems/ocaml-cordova-plugin-device-motion), you need to pin the [ocaml-js-stdlib](https://github.com/dannywillems/ocaml-js-stdlib) first.
 If the plugin needs it, it is mentionned in the Github repository.
 
