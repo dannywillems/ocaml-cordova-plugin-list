@@ -128,7 +128,7 @@ feedback about it and open issues if it's the case.
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-clipboard
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-clipboard-example
 * [Contacts](https://github.com/apache/cordova-plugin-contacts): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-contacts.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-contacts)
-	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-contacts **Partial**
+	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-contacts **Partial, not released**
 * [Date Picker](https://github.com/VitaliiBlagodir/cordova-plugin-datepicker): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-datepicker.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-datepicker)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-datepicker
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-datepicker-example
@@ -144,6 +144,8 @@ feedback about it and open issues if it's the case.
 * [Dialogs](https://github.com/apache/cordova-plugin-dialogs): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-dialogs.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-dialogs)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-dialogs
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-dialogs-example
+* [Email composer](https://github.com/katzer/cordova-plugin-email-composer): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-email-composer.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-email-composer)
+	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-email-composer
 * [File](https://github.com/apache/cordova-plugin-file): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-file.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-file)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-file
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-file-example
@@ -219,7 +221,6 @@ feedback about it and open issues if it's the case.
 * [Hot code push](https://github.com/nordnet/cordova-hot-code-push)
 * [Local notifications](https://github.com/katzer/cordova-plugin-local-notifications/)
 * [Google Maps](https://github.com/mapsplugin/cordova-plugin-googlemaps)
-* [Email composer](https://github.com/katzer/cordova-plugin-email-composer)
 
 ### Not planned
 
