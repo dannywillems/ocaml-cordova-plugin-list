@@ -223,6 +223,7 @@ feedback about it and open issues if it's the case.
 * [Hot code push](https://github.com/nordnet/cordova-hot-code-push)
 * [Local notifications](https://github.com/katzer/cordova-plugin-local-notifications/)
 * [Google Maps](https://github.com/mapsplugin/cordova-plugin-googlemaps)
+* [PayPal](https://github.com/paypal/PayPal-Cordova-Plugin)
 
 ### Not planned
 
