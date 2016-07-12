@@ -64,7 +64,7 @@ If you don't want to add this repository, you can manually pin each repository.
 
 ## What about documentation for each bindings?
 
-Bindings interface are very closed to initial plugins Javascript interface. For
+Bindings interface are very close to initial plugins Javascript interface. For
 example, for the cordova-plugin-camera allowing you to take a picture through
 *navigator.camera.getPicture* Javascript function, you use *Cordova_camera.get_picture*
 OCaml function.
@@ -103,7 +103,7 @@ Cordova_camera.get_picture success_callback error_callback ~opt:options ()
 implemented with optional arguments and these arguments are at the end of the
 arguments list, so unit is often mandatory.
 
-As the OCaml interface is very closed to Javascript interface, no OCaml
+As the OCaml interface is very close to Javascript interface, no OCaml
 documentation is done yet. **Feel free to contribute**
 
 Bindings which don't have example application are not tested. Please give a
