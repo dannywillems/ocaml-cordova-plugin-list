@@ -23,13 +23,13 @@ This repository contains the plugin list of bindings in OCaml to Cordova plugins
 
 ## What are Cordova, js_of_ocaml and gen_js_api?
 
-* [Cordova](https://cordova.apache.org) allows you to develop hybrid mobile applications using web technologies such as HTML, CSS and Javascript. For more informations, see [the official website](https://cordova.apache.org/).
+* [Cordova](https://cordova.apache.org) allows you to develop hybrid mobile applications using web technologies such as HTML, CSS and JavaScript. For more information, see [the official website](https://cordova.apache.org/).
 Through Cordova plugins, you can access to the native components. To learn how to make Cordova plugins, see [the official tutorial](https://cordova.apache.org/docs/en/latest/guide/hybrid/plugins/index.html).
 You can find the official Cordova plugin list [here](https://cordova.apache.org/plugins/).
 
-* [js\_of\_ocaml](https://ocsigen.org/js_of_ocaml) provides a compiler from OCaml to Javascript. Since Cordova applications use Javascript, js\_of\_ocaml provides a way to develop mobile application using OCaml. For more info, see [the Ocsigen project](http://ocsigen.org/) which contains js\_of\_ocaml.
+* [js\_of\_ocaml](https://ocsigen.org/js_of_ocaml) provides a compiler from OCaml to JavaScript. Since Cordova applications use JavaScript, js\_of\_ocaml provides a way to develop mobile application using OCaml. For more info, see [the Ocsigen project](http://ocsigen.org/) which contains js\_of\_ocaml.
 
-* [gen_js_api](https://github.com/lexifi/gen_js_api) aims at simplifying the creation of OCaml bindings for Javascript libraries. It must currently be used with the js_of_ocaml compiler, although other ways to run OCaml code "against" Javascript might be supported later withthe same binding definitions (for instance, Bucklescript, or direct embedding of a JS engine in a native OCaml application).
+* [gen_js_api](https://github.com/lexifi/gen_js_api) aims at simplifying the creation of OCaml bindings for JavaScript libraries. It must currently be used with the js_of_ocaml compiler, although other ways to run OCaml code "against" JavaScript might be supported later with the same binding definitions (for instance, Bucklescript, or direct embedding of a JS engine in a native OCaml application).
 
 ## How does it work?
 
@@ -55,21 +55,21 @@ Each binding can now be installed. For example, the binding to the camera plugin
 opam install cordova-plugin-camera
 ```
 
-The appropriate opam package is given in the appropriate Github repository (list is given [below](#bindings-list)).
+The appropriate opam package is given in the appropriate GitHub repository (list is given [below](#bindings-list)).
 
 If the plugin needs the binding to the standard js library such as [device-motion](https://github.com/dannywillems/ocaml-cordova-plugin-device-motion), you need to pin the [ocaml-js-stdlib](https://github.com/dannywillems/ocaml-js-stdlib) first.
-If the plugin needs it, it is mentionned in the Github repository.
+If the plugin needs it, it is mentioned in the GitHub repository.
 
 If you don't want to add this repository, you can manually pin each repository.
 
 ## What about documentation for each bindings?
 
-Bindings interface are very close to initial plugins Javascript interface. For
+Bindings interface are very close to initial plugins JavaScript interface. For
 example, for the cordova-plugin-camera allowing you to take a picture through
-*navigator.camera.getPicture* Javascript function, you use *Cordova_camera.get_picture*
+*navigator.camera.getPicture* JavaScript function, you use *Cordova_camera.get_picture*
 OCaml function.
 The equivalent OCaml code to
-```Javascript
+```JavaScript
 var success_callback = function(success) {
 	console.log(success);
 }
@@ -103,7 +103,7 @@ Cordova_camera.get_picture success_callback error_callback ~opt:options ()
 implemented with optional arguments and these arguments are at the end of the
 arguments list, so unit is often mandatory.
 
-As the OCaml interface is very close to Javascript interface, no OCaml
+As the OCaml interface is very close to JavaScript interface, no OCaml
 documentation is done yet. **Feel free to contribute**
 
 Bindings which don't have example application are not tested. Please give a
@@ -282,7 +282,7 @@ It could be interesting to analyse the source code of the Cordova application (w
 
 * Danny Willems
   * Twitter: [@dwillems42](https://twitter.com/dwillems42)
-  * Github: https://github.com/dannywillems
+  * GitHub: https://github.com/dannywillems
   * Email: contact@danny-willems.be
   * Website: [danny-willems.be](https://danny-willems.be)
 
