@@ -4,6 +4,8 @@
 
 [![Join the chat at https://gitter.im/dannywillems/ocaml-cordova-plugin-list](https://badges.gitter.im/dannywillems/ocaml-cordova-plugin-list.svg)](https://gitter.im/dannywillems/ocaml-cordova-plugin-list?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
+[A complete tutorial with an example](https://blog.danny-willems.be/en/ocaml-cordova-secured-typed-hybrid-mobile-applications/)
+
 This repository contains the plugin list of bindings in OCaml to Cordova plugins using js_of_ocaml and gen_js_api.
 
 - [ocaml-cordova-plugin-list](#ocaml-cordova-plugin-list)
