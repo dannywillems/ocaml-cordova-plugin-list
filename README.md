@@ -176,6 +176,8 @@ feedback about it and open issues if it's the case.
 * [Loading Spinner](https://github.com/mobimentum/phonegap-plugin-loading-spinner): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-loading-spinner.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-loading-spinner) **Deprecated: working on Cordova < 4**
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-loading-spinner
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-loading-spinner-example
+* [Local notifications](https://github.com/katzer/cordova-plugin-local-notifications/):
+	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-local-notifications **Partial**
 * [Media](https://github.com/apache/cordova-plugin-media): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-media.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-media)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-media
 * [Media-capture](https://github.com/apache/cordova-plugin-media-capture): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-media-capture.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-media-capture)
@@ -223,7 +225,6 @@ feedback about it and open issues if it's the case.
 * [Calendar](https://github.com/EddyVerbruggen/Calendar-PhoneGap-Plugin)
 * [Facebook] (https://github.com/jeduan/cordova-plugin-facebook4)
 * [Hot code push](https://github.com/nordnet/cordova-hot-code-push)
-* [Local notifications](https://github.com/katzer/cordova-plugin-local-notifications/)
 * [Google Maps](https://github.com/mapsplugin/cordova-plugin-googlemaps)
 * [PayPal](https://github.com/paypal/PayPal-Cordova-Plugin)
 
@@ -279,6 +280,18 @@ cordova plugin add [plugin_name]
 It could be interesting to analyse the source code of the Cordova application (written in OCaml), detect used plugins and automatically run the cordova plugin add command. Use [merlin](https://github.com/the-lambda-church/merlin) method to analyse the code?
 
 * A binary like *cordova* to create new Cordova project in OCaml and simplify when the user wants to add a plugin.
+
+## Contributors
+
+* Omar Chebib (local notifications)
+  * GitHub: https://github.com/o-marshmallow
+  * Email: omarchebib@gmail.com
+
+* Danny Willems
+  * Twitter: [@dwillems42](https://twitter.com/dwillems42)
+  * GitHub: https://github.com/dannywillems
+  * Email: contact@danny-willems.be
+  * Website: [danny-willems.be](https://danny-willems.be)
 
 ## Maintainers
 
