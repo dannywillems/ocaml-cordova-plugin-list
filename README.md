@@ -116,6 +116,8 @@ feedback about it and open issues if it's the case.
 * [ActivityIndicator](https://github.com/Initsogar/cordova-activityindicator): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-activity-indicator.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-activity-indicator)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-activity-indicator
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-activity-indicator-example
+* [Background mode](https://github.com/katzer/cordova-plugin-background-mode):
+	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-background-mode
 * [Barcode Scanner](https://github.com/phonegap/phonegap-plugin-barcodescanner): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-barcode-scanner.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-barcode-scanner)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-barcode-scanner
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-barcode-scanner-example
@@ -227,6 +229,7 @@ feedback about it and open issues if it's the case.
 * [Hot code push](https://github.com/nordnet/cordova-hot-code-push)
 * [Google Maps](https://github.com/mapsplugin/cordova-plugin-googlemaps)
 * [PayPal](https://github.com/paypal/PayPal-Cordova-Plugin)
+* [NFC](https://github.com/chariotsolutions/phonegap-nfc)
 
 ### Not planned
 
@@ -283,7 +286,7 @@ It could be interesting to analyse the source code of the Cordova application (w
 
 ## Contributors
 
-* Omar Chebib (local notifications)
+* Omar Chebib (local-notifications, background-mode)
   * GitHub: https://github.com/o-marshmallow
   * Email: omarchebib@gmail.com
 
