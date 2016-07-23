@@ -251,7 +251,7 @@ let on_device_ready () =
 let _ = Cordova.Event.device_ready on_device_ready
 ```
 
-The module *Cordova* comes from the [bindings to the cordova object](https://github.com/dannywillems/ocaml-cordova) so you need to add it for each project. This module can be installed with
+The module *Cordova* comes from the [binding to the cordova object](https://github.com/dannywillems/ocaml-cordova) so you need to add it for each project. This module can be installed with
 ```
 opam install cordova
 ```
