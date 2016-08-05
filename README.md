@@ -47,12 +47,10 @@ Some bindings has two branches: gen_js_api (master) and js_of_ocaml.
 
 **Needs compiler >= 4.03.0**
 
-This repository contains all opam repositories of the bindings (each binding has one repository for some reasons). It is **recommended** to add this repository as a remote opam package provider with
-```Shell
-opam repository add cordova https://github.com/dannywillems/ocaml-cordova-plugin-list.git
-```
+Each binding has one repository for some reasons: maintainability, update easier, add to list easier and often we only need one binding, not all).
 
-Each binding can now be installed. For example, the binding to the camera plugin is `cordova-plugin-camera`. So, if you want to install the camera binding, you need to use
+For each bindings listed here, the corresponding opam repository begins with cordova-plugin- and ends with the plugin name.
+For example, the binding to the camera plugin is `cordova-plugin-camera`. So, if you want to install the camera binding, you need to use
 ```
 opam install cordova-plugin-camera
 ```
@@ -61,8 +59,6 @@ The appropriate opam package is given in the appropriate GitHub repository (list
 
 If the plugin needs the binding to the standard js library such as [device-motion](https://github.com/dannywillems/ocaml-cordova-plugin-device-motion), you need to pin the [ocaml-js-stdlib](https://github.com/dannywillems/ocaml-js-stdlib) first.
 If the plugin needs it, it is mentioned in the GitHub repository.
-
-If you don't want to add this repository, you can manually pin each repository.
 
 ## What about documentation for each bindings?
 
