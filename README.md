@@ -6,7 +6,7 @@
 
 [A complete tutorial with an example](https://blog.danny-willems.be/en/ocaml-cordova-secured-typed-hybrid-mobile-applications/)
 
-This repository contains the plugin list of bindings in OCaml to Cordova plugins using js_of_ocaml and gen_js_api.
+This repository contains the list of bindings in OCaml to Cordova plugins using gen_js_api.
 
 - [ocaml-cordova-plugin-list](#ocaml-cordova-plugin-list)
   * [What are Cordova, js_of_ocaml and gen_js_api?](#what-are-cordova-js_of_ocaml-and-gen_js_api)
@@ -282,17 +282,17 @@ It could be interesting to analyse the source code of the Cordova application (w
 
 ## Contributors
 
-* Omar Chebib (local-notifications, background-mode)
-  * GitHub: https://github.com/o-marshmallow
-  * Email: omarchebib@gmail.com
-
-* Danny Willems
+* Danny Willems (most bindings)
   * Twitter: [@dwillems42](https://twitter.com/dwillems42)
   * GitHub: https://github.com/dannywillems
   * Email: contact@danny-willems.be
   * Website: [danny-willems.be](https://danny-willems.be)
 
-## Maintainers
+* Omar Chebib (local-notifications, background-mode, contact without object)
+  * GitHub: https://github.com/o-marshmallow
+  * Email: omarchebib@gmail.com
+
+## Maintainer
 
 * Danny Willems
   * Twitter: [@dwillems42](https://twitter.com/dwillems42)
@@ -303,6 +303,8 @@ It could be interesting to analyse the source code of the Cordova application (w
 ## Related projects
 
 * [OCaml for web programming](https://github.com/dannywillems/ocaml-for-web-programming)
+* [OCaml NodeJS: list of bindings to NodeJS packages](https://github.com/dannywillems/ocaml-node-list)
 * [Jsoo_lib](https://github.com/dannywillems/jsoo-lib)
+* [ocaml-js-stdlib](https://github.com/dannywillems/ocaml-js-stdlib)
 * [ocaml-materializecss](https://github.com/dannywillems/ocaml-materializecss)
 * [Ocsigen](https://ocsigen.org)
