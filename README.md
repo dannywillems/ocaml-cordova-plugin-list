@@ -186,7 +186,8 @@ feedback about it and open issues if it's the case.
 * [Progress](https://github.com/leecrossley/cordova-plugin-progress): **Only iOS!!!** [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-progress.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-progress)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-progress
 * [Push notifications](https://github.com/phonegap/phonegap-plugin-push): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-push.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-push)
-	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-push **Not tested**
+	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-push
+	  *Tested*
 * [QRScanner](https://github.com/bitpay/cordova-plugin-qrscanner): **Only iOS!!!** [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-qrscanner.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-qrscanner)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-qrscanner
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-qrscanner-example
