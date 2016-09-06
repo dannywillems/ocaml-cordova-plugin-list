@@ -162,6 +162,8 @@ feedback about it and open issues if it's the case.
 * [Globalization](https://github.com/apache/cordova-plugin-globalization): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-globalization.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-globalization)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-globalization
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-globalization-example
+* [Hot code push](https://github.com/nordnet/cordova-hot-code-push)
+	* Source: https://github.com/dannywillems/ocaml-cordova-plugin-hot-code-push
 * [Keyboard](https://github.com/cjpearson/cordova-plugin-keyboard): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-keyboard.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-keyboard)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-keyboard
 * [Image Picker](https://github.com/wymsee/cordova-imagePicker): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-image-picker.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-image-picker)
@@ -223,7 +225,6 @@ feedback about it and open issues if it's the case.
 
 * [Calendar](https://github.com/EddyVerbruggen/Calendar-PhoneGap-Plugin)
 * [Facebook] (https://github.com/jeduan/cordova-plugin-facebook4)
-* [Hot code push](https://github.com/nordnet/cordova-hot-code-push)
 * [Google Maps](https://github.com/mapsplugin/cordova-plugin-googlemaps)
 * [PayPal](https://github.com/paypal/PayPal-Cordova-Plugin)
 * [NFC](https://github.com/chariotsolutions/phonegap-nfc)
