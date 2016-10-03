@@ -63,9 +63,10 @@ If the plugin needs it, it is mentioned in the GitHub repository.
 ## What about documentation for each bindings?
 
 Bindings interface are very close to initial plugins JavaScript interface. For
-example, for the cordova-plugin-camera allowing you to take a picture through
-*navigator.camera.getPicture* JavaScript function, you use *Cordova_camera.get_picture*
-OCaml function.
+example, for
+[cordova-plugin-camera](https://github.com/apache/cordova-plugin-camera) which
+allows you to take a picture through ```navigator.camera.getPicture``` JavaScript
+function, you use ```Cordova_camera.get_picture``` OCaml function.
 The equivalent OCaml code to
 ```JavaScript
 var success_callback = function(success) {
@@ -76,7 +77,7 @@ var error_callback = function(error) {
 	console.log(error);
 }
 
-var options = {quality: 25; destinationType: Camera.DestinationType.DATA_URL}
+var options = {quality: 25, destinationType: Camera.DestinationType.DATA_URL}
 
 navigator.camera.getPicture(success_callback, error_callback, options)
 ```
