@@ -230,6 +230,7 @@ feedback about it and open issues if it's the case.
 * [PayPal](https://github.com/paypal/PayPal-Cordova-Plugin)
 * [NFC](https://github.com/chariotsolutions/phonegap-nfc)
 * [Firebase](https://github.com/arnesson/cordova-plugin-firebase)
+* [FCM](https://github.com/fechanique/cordova-plugin-fcm)
 
 ### Not planned
 
