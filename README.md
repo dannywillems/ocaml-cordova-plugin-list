@@ -149,6 +149,9 @@ feedback about it and open issues if it's the case.
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-dialogs-example
 * [Email composer](https://github.com/katzer/cordova-plugin-email-composer): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-email-composer.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-email-composer)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-email-composer
+* [FCM](https://github.com/fechanique/cordova-plugin-fcm): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-fcm.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-fcm)
+	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-fcm
+	* Example (with Ocsigen): https://github.com/dannywillems/ocsigen-mobile-push-notification-example/tree/fcm
 * [File](https://github.com/apache/cordova-plugin-file): [![Build Status](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-file.svg?branch=master)](https://travis-ci.org/dannywillems/ocaml-cordova-plugin-file)
 	* Source files: https://github.com/dannywillems/ocaml-cordova-plugin-file
 	* Example: https://github.com/dannywillems/ocaml-cordova-plugin-file-example
@@ -229,7 +232,6 @@ feedback about it and open issues if it's the case.
 * [PayPal](https://github.com/paypal/PayPal-Cordova-Plugin)
 * [NFC](https://github.com/chariotsolutions/phonegap-nfc)
 * [Firebase](https://github.com/arnesson/cordova-plugin-firebase)
-* [FCM](https://github.com/fechanique/cordova-plugin-fcm)
 
 ### Not planned
 
