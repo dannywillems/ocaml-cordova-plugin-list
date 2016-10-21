@@ -232,6 +232,7 @@ feedback about it and open issues if it's the case.
 * [PayPal](https://github.com/paypal/PayPal-Cordova-Plugin)
 * [NFC](https://github.com/chariotsolutions/phonegap-nfc)
 * [Firebase](https://github.com/arnesson/cordova-plugin-firebase)
+* [Badge](https://github.com/katzer/cordova-plugin-badge)
 
 ### Not planned
 
